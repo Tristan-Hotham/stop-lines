@@ -1,0 +1,135 @@
+<div class="stats">
+  <div><b>{{n_sites|int}}</b><span>wartime defence sites recorded by the Defence of Britain volunteers</span></div>
+  <div><b>{{n_pillbox|int}}</b><span>of them pillboxes; {{pillbox_standing|int}} were still standing when recorded</span></div>
+  <div><b class="h">{{sealion.all.10.ratio|f1}}×</b><span>as many recorded works per km of coast along the planned Sea Lion beaches as along the rest of the south and east coast</span></div>
+  <div><b class="h">{{osm.share50|pct0}}</b><span>of recorded pillboxes have a pillbox mapped on OpenStreetMap within 50 m today</span></div>
+</div>
+
+<p class="lede">In the summer of 1940, with the army's equipment left on the beaches of Dunkirk, Britain poured concrete. Beaches were wired and blocked, bridges were mined, and lines of pillboxes and anti-tank obstacles were strung across the country along rivers, canals and railway embankments. These were the stop lines: not walls, but brakes, meant to hold a German advance long enough for mobile forces to strike back. By the end of September 1940, by one count, {{refs.built_by_sept_1940|int}} pillboxes had been completed. About {{refs.built_total|int}} pillboxes and other hardened field defences were built in all, and about {{refs.survive_total|int}} are thought to survive.</p>
+<p>Fifty years later, volunteers went out to find what was left. The Defence of Britain Project, run by the Council for British Archaeology from 1995 to 2002, recorded {{n_sites|int}} anti-invasion sites with grid references, types and condition. Its database is open to read. So I asked three simple questions of it. Where were the defences? How much was recorded as surviving? And did they sit where the Germans actually planned to land?</p>
+<p>I also widened the map, because 1940 was not only pillboxes. Alongside the defences I plot {{layers.airfields|int}} airfields and RAF stations from Wikidata, {{layers.radar|int}} radar stations, {{layers.dockyards|int}} naval dockyards and {{layers.forts|int}} coastal batteries and Martello towers, to give a fuller picture of defended Britain.</p>
+
+<h2><span class="n">01 · The map</span>Defended Britain, 1940</h2>
+<p>Every dot is a site recorded by the Defence of Britain Project. Switch the families of defence on and off, colour them by what the recorders found, draw the stop lines, and add the airfields, radar, dockyards and coastal batteries. The red coast is where the German order of battle of 30 August 1940 planned to land. Tap anything for details.</p>
+<div class="figure bleed">
+  <div class="controls" id="famChips" role="group" aria-label="Families of defence"></div>
+  <div class="controls">
+    <span class="clab">Layers</span>
+    <button class="btn" data-layer="stop" aria-pressed="true">Stop lines</button>
+    <button class="btn" data-layer="sea" aria-pressed="true">Sea Lion beaches</button>
+    <button class="btn" data-layer="af" aria-pressed="false">Airfields</button>
+    <button class="btn" data-layer="ra" aria-pressed="false">Radar</button>
+    <button class="btn" data-layer="po" aria-pressed="true">Naval dockyards</button>
+    <button class="btn" data-layer="fo" aria-pressed="false">Batteries and Martellos</button>
+    <button class="btn" data-layer="op" aria-pressed="false">OSM pillboxes today</button>
+  </div>
+  <div class="controls">
+    <span class="clab">Colour</span>
+    <div class="seg" role="group" aria-label="Colour sites by"><button class="btn" data-colour="fam" aria-pressed="true">Type</button><button class="btn" data-colour="st" aria-pressed="false">Survival</button></div>
+    <span class="clab">Show</span>
+    <div class="seg" role="group" aria-label="Show sites as"><button class="btn" data-view="pts" aria-pressed="true">Sites</button><button class="btn" data-view="grid" aria-pressed="false">Density</button></div>
+    <select id="slsel" aria-label="Highlight a stop line"><option value="-1">Highlight a stop line…</option></select>
+  </div>
+  <div class="mapgrid">
+    <div>
+      <div id="map" role="application" aria-label="Map of recorded wartime defences, stop lines, airfields, radar and naval dockyards"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="side">
+      <div class="card" id="countCard"></div>
+      <div class="card empty" id="card">Tap a site, a stop line, an airfield or a dockyard to see what is recorded there.</div>
+    </div>
+  </div>
+  <div class="src">Defence sites: Defence of Britain Archive, Council for British Archaeology (2002, updated 2006), Archaeology Data Service. Stop lines are drawn by joining each recorded site in a named DoB stop line group to its nearest neighbours (a minimum spanning tree), leaving out gaps longer than {{stop_line_cut_km|int}} km: they follow the recorded sites, not the planned trace. Airfields, radar, batteries: Wikidata and the Wikipedia table of Chain Home sites; dockyards: Wikipedia "Royal Navy Dockyard". Density: recorded sites per 10 km grid square.</div>
+</div>
+
+<h2><span class="n">02 · What they built</span>{{n_pillbox|int}} pillboxes and a lot of concrete</h2>
+<p>The Defence of Britain recorders used {{n_types|int}} different site types. I grouped them into six families. Pillboxes dominate: {{n_pillbox|int}} records, {{fam_share.0|pct0}} of the whole. Most are the standard War Office designs, the hexagonal Type 22 and the irregular Type 24, which between them account for {{n_pillbox_type22_24|int}} records; another {{n_pillbox_generic|int}} are logged only as "pillbox". Next come {{fam_counts.1|int}} anti-tank obstacles: roadblocks, concrete cubes, cylinders and the pyramid-shaped "pimples" that still line some field edges. Of the records with a construction date, {{share_built_1940|pct0}} are dated 1940.</p>
+<div class="figure">
+  <div class="fig-h">Recorded sites by family</div>
+  <div class="fig-sub">Bars split by what the recorders found: standing, gone, or not known. Hover or tap a bar.</div>
+  <div class="chart" id="famChart"></div>
+</div>
+<div class="figure">
+  <div class="fig-h">The twelve most common site types</div>
+  <div class="fig-sub">As named in the Defence of Britain thesaurus.</div>
+  <div class="chart" id="typeChart"></div>
+</div>
+
+<h2><span class="n">03 · The stop lines</span>Lines across the country</h2>
+<p>The database groups records into {{n_groups|int}} named defence groupings: coast defences, nodal points, anti-tank islands, airfield defences and {{n_stop_line_groups|int}} stop lines with at least two located sites. {{n_on_stop_lines|int}} sites, {{share_on_stop_lines|pct0}} of the total, belong to a stop line. Joining neighbouring sites gives {{stop_lines_drawn_km|int}} km of drawn line, which is a floor, not a measure: recorders walked some lines end to end and others hardly at all.</p>
+<p>The GHQ Line, the long anti-tank barrier meant to shield London and the industrial heartland of England, is the backbone. Its {{ghq_sections|int}} recorded sections hold {{ghq_sites|int}} sites. The single biggest group is the GHQ Line through Berkshire, Hampshire, Surrey and Kent, with {{stop_lines_top.0.n_sites|int}} sites. The Taunton Stop Line, built to seal off the south-west peninsula, has {{taunton.n_sites|int}} recorded sites; Wikipedia's account of it counts {{taunton_wiki_pillboxes_1942|int}} light machine gun pillboxes alone by early 1942, which gives a sense of how much a single line held, and how much went unrecorded.</p>
+<div class="figure">
+  <div class="fig-h">The largest recorded stop lines</div>
+  <div class="fig-sub">Sites recorded in each DoB stop line group, and the share of those with a known condition that were still standing.</div>
+  <div class="tablewrap"><table class="t" id="slTable"></table></div>
+</div>
+<p>Stop lines survived better than the rest. Of stop line sites with a known condition, {{stop_line_share_standing_known|pct0}} were standing, against {{off_line_share_standing_known|pct0}} of other sites. Inland pillboxes on farmland and riverbanks were simply less in the way than roadblocks in towns or obstacles on beaches. Among the {{n_stop_lines_40plus|int}} lines with at least 40 recorded sites, the best survivor is the {{stop_lines_best_survival.0.name|raw}}, at {{stop_lines_best_survival.0.share_standing_known|pct0}}; the worst is {{stop_lines_worst_survival.0.name|raw}}, at {{stop_lines_worst_survival.0.share_standing_known|pct0}}, where many of the recorded features were roadblocks and bridge defences that have gone.</p>
+
+<h2><span class="n">04 · The invasion coast</span>Did the concrete go where the Germans planned to land?</h2>
+<p>Operation Sea Lion went through many drafts. The definitive order of battle of 30 August 1940, as summarised in the Wikipedia article on the operation, put the first wave on four stretches of beach: B between Folkestone and New Romney, C between Rye and Hastings, D between Bexhill and Eastbourne, and E between Beachy Head and Brighton. I placed those towns from the Ordnance Survey gazetteer and traced the coast between each pair: {{coast.landing_km|int}} km of shore, {{coast.landing_share_of_se|pct0}} of the {{coast.se_km|int}} km of south and east coast from Land's End to Berwick-upon-Tweed.</p>
+<p>Within 10 km of those beaches (and nearer to them than to any other coast) the volunteers recorded {{sealion.all.10.landing|int}} sites, {{sealion.all.10.per_km_landing|f1}} per km of coast. Along the rest of the south and east coast the figure is {{sealion.all.10.per_km_rest|f1}} per km. So the landing coast carried {{sealion.all.10.ratio|f1}} times the density of recorded defence, and for pillboxes alone {{sealion.pillboxes.10.ratio|f1}} times. The answer holds whether I count within 5 km ({{sealion.all.5.ratio|f1}} times) or 20 km ({{sealion.all.20.ratio|f1}} times), and if I treat Folkestone to Brighton as one continuous front ({{sealion_continuous.all.ratio|f1}} times).</p>
+<p class="pull">The planned beaches were more heavily defended than the average coast. They were not the most heavily defended coast.</p>
+<p>That second half matters. Cut the coast into {{coast_seg_n|int}} stretches of {{coast_seg_km|int}} km and rank them by recorded sites per km. Top of the list is the coast of Teesside around Redcar. Second is the stretch from Folkestone to Dover, which takes in the eastern end of beach B. The other stretches that include part of a landing beach rank {{coast_seg_touch_ranks.1.rank|ord}}, {{coast_seg_touch_ranks.2.rank|ord}}, {{coast_seg_touch_ranks.3.rank|ord}}, {{coast_seg_touch_ranks.4.rank|ord}} and {{coast_seg_touch_ranks.5.rank|ord}}.</p>
+<p>The four beaches were also very different. Beach B, Folkestone to New Romney, had {{coast.beaches.B.per_km|f1}} recorded sites per km, far above anything else on the south coast. Beach E, Beachy Head to Brighton, had {{coast.beaches.E.per_km|f1}} and beach D, Bexhill to Eastbourne, {{coast.beaches.D.per_km|f1}}. Beach C, Rye to Hastings, had {{coast.beaches.C.per_km|f1}}, no more than the average coast. Most of the landing coast's lead comes from its eastern end, the shore nearest France. The pattern looks less like a bet on one German plan than a defence of every likely landing place, with the Kent coast opposite Calais the most obvious of all.</p>
+<div class="figure">
+  <div class="fig-h">Recorded defence along the coast, Land's End to Berwick</div>
+  <div class="fig-sub">Sites within 10 km of each {{coast_seg_km|int}} km stretch of coast, per km. Red: stretches mostly on a Sea Lion beach; pale red: stretches that include part of one. Hover or tap a bar.</div>
+  <div class="chart" id="coastChart"></div>
+  <div class="src">Coastline: Natural Earth 1:10m land, so lengths are approximate and smooth out small bays. Each site counts once, for the nearest stretch.</div>
+</div>
+<p>Teesside's top place is a warning about the data, not a discovery about 1940. Redcar and Cleveland has {{county_named.Redcar & Cleveland|int}} records, more than Devon ({{county_named.Devon|int}}). The heavy industry of the Tees was defended, but much of the difference is that some areas had energetic recorders and some did not. Section 08 comes back to this.</p>
+
+<h2><span class="n">05 · What survives</span>How much was still there?</h2>
+<p>The recorders gave each site a condition. Of the {{n_sites|int}} records, {{status_standing|int}} ({{share_standing_all|pct0}}) were still standing in some state, {{status_gone|int}} ({{share_gone_all|pct0}}) had been removed or infilled, and {{status_not_known|int}} were of unknown condition. Leaving out the unknowns, {{share_standing_known|pct0}} survived.</p>
+<p>Survival depends on what a thing was. Pillboxes are hard to shift and usually out of the way: {{fam_status.0.share_standing_known|pct0}} of those with a known condition were standing. Anti-tank obstacles in roads and towns fared worse, at {{fam_status.1.share_standing_known|pct0}}. Beach scaffolding, anti-landing trenches, minefields and flame traps were cleared after the war by design: only {{fam_status.4.share_standing_known|pct0}} remained.</p>
+<p>The Defence of Britain volunteers recorded {{pillbox_standing|int}} standing pillboxes. That is close to the figure of about {{refs.survive_total|int}} survivors quoted from the project's own review, which is no surprise, since that estimate rests largely on this survey. Set against the {{refs.built_total|int}} pillboxes and hardened defences built, it shows how much had already gone by the 1990s.</p>
+<div class="figure">
+  <div class="fig-h">Condition as recorded, all sites</div>
+  <div class="fig-sub">The Defence of Britain condition categories. Most visits were made between 1994 and 2002.</div>
+  <div class="chart" id="condChart"></div>
+</div>
+
+<h2><span class="n">06 · Still on the map?</span>A check against OpenStreetMap</h2>
+<p>The survey is now a quarter of a century old. As a rough check of what is mapped today, I looked for a pillbox on OpenStreetMap within 50 m of each recorded pillbox. OpenStreetMap holds {{osm.n_osm_pillboxes|int}} pillboxes in the UK. Only {{osm.within50|int}} recorded pillboxes, {{osm.share50|pct0}}, have one within 50 m ({{osm.share250|pct0}} within 250 m). The match rate is {{osm.share50_standing|pct0}} for pillboxes recorded as standing and {{osm.share50_gone|pct1}} for those recorded as gone, which is the pattern you would expect if the matches are real.</p>
+<p>This is a test of mapping, not of survival. OpenStreetMap volunteers have mapped some districts in loving detail and ignored others, and {{osm.osm_without_dob_250|int}} of the OpenStreetMap pillboxes ({{osm.osm_without_dob_250_share|pct0}}) have no Defence of Britain record of any kind within 250 m. Most surviving pillboxes are simply not on the open map yet.</p>
+<div class="figure">
+  <div class="fig-h">Recorded pillboxes with an OpenStreetMap pillbox nearby</div>
+  <div class="fig-sub">By the condition the Defence of Britain recorded, at three distances.</div>
+  <div class="chart" id="osmChart"></div>
+</div>
+
+<h2><span class="n">07 · The wider war</span>Airfields, radar and the fleet</h2>
+<p>Pillboxes were one layer of a much larger system. Wikidata lists {{layers.airfields|int}} airfields, RAF stations and naval air stations in the UK; {{layers.airfields_wartime|int}} have dates that place them in use between 1939 and 1945, and {{layers.airfields_nodate|int}} have no dates at all. Airfields were a prime target for airborne troops, and the defences show it: {{layers.pillbox_within2_airfield|int}} recorded pillboxes, {{layers.pillbox_within2_airfield_share|pct0}}, stand within 2 km of one, including {{layers.pickett_hamilton|int}} Pickett-Hamilton forts, the pillboxes that rose out of the ground on airfields.</p>
+<p>The Sea Lion coast was also airfield country. Within 10 km of the planned beaches there are {{layers.airfields_within10_landing|int}} airfields in my list, {{layers.airfields_per100km_landing|f1}} per 100 km of coast, against {{layers.airfields_per100km_rest|f1}} along the rest of the south and east coast. The plan named one of them: the airborne division was to seize the aerodrome at Lympne.</p>
+<p>The radar layer draws on the table of Chain Home sites in Wikipedia ({{layers.radar_ch_table|int}} with grid references) and Wikidata's radar stations, {{layers.radar|int}} in all. The naval layer marks the {{layers.dockyards|int}} dockyards that the Wikipedia list of Royal Navy dockyards shows working in the Second World War, from Portsmouth and Devonport to Rosyth and Scapa Flow. The coastal batteries and {{layers.martello|int}} Martello towers come from Wikidata; many of the towers are Napoleonic, but several were reused in 1940.</p>
+
+<h2><span class="n">08 · Who recorded what</span>A map of volunteers as well as of defences</h2>
+<p>The Defence of Britain Project was a volunteer survey, and it shows. Kent has {{county_named.Kent|int}} records and Norfolk {{county_named.Norfolk|int}}, as you would expect for the counties facing the invasion. But Worcestershire, a long way from any beach, has {{county_named.Worcestershire|int}}, thanks largely to the anti-tank island around Worcester, while Lancashire has {{county_named.Lancashire|int}}. Some of that reflects real differences in 1940. Much of it reflects who went out with a notebook in the late 1990s. A thin patch on this map may mean few defences, or few recorders.</p>
+<div class="figure">
+  <div class="fig-h">Records by county, top twenty</div>
+  <div class="fig-sub">The county as entered in the Defence of Britain database.</div>
+  <div class="chart" id="countyChart"></div>
+</div>
+
+<div class="note" id="method">
+  <h3>How I did this</h3>
+  <p><b>Defence sites.</b> The Defence of Britain Archive (CBA 2002, updated 2006) as distributed by the Archaeology Data Service: the site table ({{n_records_all|int}} records), the thesaurus of site types, condition and period word lists, the named groups and the links between records and groups, counties and dated events. Coordinates come from the ADS Google Earth file of the whole dataset (compiled by Steven Thompson); I checked them against the database's own National Grid references, and half lie within {{dob_meta.kmz_vs_grid_median_m|int}} m of my conversion of the grid reference, with {{dob_meta.kmz_vs_grid_share_within_100m|pct0}} within 100 m. {{dob_meta.coord_source.grid reference|int}} records without a placemark use the grid reference. I publish only derived fields: type, family, condition, group, county, coordinates and years.</p>
+  <p><b>Families and survival.</b> My six families are keyword groupings of the DoB site types (the code lists every rule). "Standing" means Good, Fair, Bad, Very Bad or "Extant but condition unknown"; "gone" means Removed or Infilled.</p>
+  <p><b>Stop lines.</b> Every DoB group whose name contains "Stop Line", "GHQ Line" or "Corps Line". The members of each group are joined by a minimum spanning tree, dropping links over {{stop_line_cut_km|int}} km.</p>
+  <p><b>The coast test.</b> Natural Earth 1:10m coastline of Great Britain. The four Sea Lion beaches run between the towns named in the Wikipedia article on Operation Sea Lion, each placed at its OS Open Names point and moved to the nearest coast. The rest of the coast is everything from Land's End round the south and east to Berwick-upon-Tweed. A site counts for whichever of the two is nearer, if within 10 km. Densities are sites per km of coast.</p>
+  <p><b>OpenStreetMap.</b> Features tagged bunker_type=pillbox or historic=pillbox, matched to the nearest DoB pillbox in British National Grid metres. OpenStreetMap coordinates are the centre of each feature's bounding box.</p>
+  <p><b>Wider layers.</b> Wikidata items in the UK of the classes RAF station, aerodrome, naval air station, seaplane base, radar station, naval base, artillery or coastal battery, anti-aircraft battery and Martello tower; "wartime" means a start date of 1945 or earlier and an end date of 1939 or later, and undated items are kept and flagged. Near-duplicate airfields within 1.5 km are merged. Dockyards come from the Wikipedia list, placed at article coordinates or the OS Open Names town point, as recorded in the data.</p>
+  <p><b>Limits.</b> This is a map of what was recorded, mostly between 1994 and 2002, not of what was built. Recording effort varied enormously by county. Condition was a judgement made on a visit and has changed since. OpenStreetMap and Wikidata coverage is uneven. The Sea Lion beaches are the plan as summarised in one encyclopaedia article, and they were a German plan, not something the British defenders could see on a map. All numbers on this page come from the published results file.</p>
+</div>
+
+<h2><span class="n">09 · Sources</span>Data, licences and code</h2>
+<div class="cta"><a class="p" href="https://doi.org/10.5281/zenodo.23727131">Read the paper</a><a href="https://github.com/Tristan-Hotham/stop-lines">Data and code</a><a href="https://blog.tristanhotham.com/">Blog home</a></div>
+<p>Related: <a href="https://tristan-hotham.github.io/armada-beacons/">Fire on the Hills</a>, on how fast the Armada beacons could carry the news, an earlier warning system along the same coasts.</p>
+<ul>
+<li>Defence of Britain Archive, Council for British Archaeology (2002, updated 2006), Archaeology Data Service, <a href="https://doi.org/10.5284/1000327">https://doi.org/10.5284/1000327</a>. Data copyright Council for British Archaeology unless otherwise stated; used under the ADS Terms of Use and Access for non-commercial research with acknowledgement. Google Earth KMZ of the dataset compiled by Steven Thompson.</li>
+<li>Wikidata (CC0) and OpenStreetMap (© OpenStreetMap contributors, ODbL 1.0), retrieved 28 October 2026 through QLever.</li>
+<li>Wikipedia (CC BY-SA 4.0): <a href="https://en.wikipedia.org/wiki/Operation_Sea_Lion">Operation Sea Lion</a>, <a href="https://en.wikipedia.org/wiki/British_anti-invasion_preparations_of_the_Second_World_War">British anti-invasion preparations of the Second World War</a>, <a href="https://en.wikipedia.org/wiki/GHQ_Line">GHQ Line</a>, <a href="https://en.wikipedia.org/wiki/Taunton_Stop_Line">Taunton Stop Line</a>, <a href="https://en.wikipedia.org/wiki/Chain_Home">Chain Home</a>, <a href="https://en.wikipedia.org/wiki/Royal_Navy_Dockyard">Royal Navy Dockyard</a>, HMNB Portsmouth, HMNB Devonport and Rosyth Dockyard.</li>
+<li>Ordnance Survey, OS Open Names: contains OS data © Crown copyright and database right 2026 (Open Government Licence v3.0).</li>
+<li>Natural Earth 1:10m land (public domain).</li>
+</ul>
