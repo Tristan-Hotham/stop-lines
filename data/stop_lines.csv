@@ -1,0 +1,91 @@
+group_id,name,n_sites,drawn_km,span_km,n_pillbox,n_antitank,standing,gone,share_standing_known,lat,lon
+71,GHQ Line (Berkshire/Hampshire/Surrey/Kent),850,255.9,89.7,696,128,696,84,0.892,51.2196,-0.4585
+32,London Stop Line: Outer,387,220.2,52.0,187,176,153,109,0.584,51.5303,-0.1778
+9,GHQ Line: Green,316,150.7,77.2,248,59,267,45,0.856,51.3684,-2.4227
+44,Eastern Command: Corps and Command Stop Lines,315,226.1,114.5,236,37,217,76,0.741,52.2883,0.5276
+2,Southern Command: Taunton Stop Line,302,106.2,378.2,163,80,199,59,0.771,50.9032,-2.9895
+34,GHQ Line (Essex),299,116.4,62.0,248,16,248,26,0.905,51.8262,0.408
+18,GHQ Line: Blue,270,117.6,85.2,180,79,216,44,0.831,51.3791,-1.6538
+73,GHQ Line (North West Kent),226,104.3,37.8,175,40,171,29,0.855,51.3208,0.4642
+183,GHQ Line (Cambridgeshire and Peterborough),226,168.8,71.4,178,26,121,101,0.545,52.4114,0.0899
+147,GHQ Line: Red,174,109.8,74.1,132,25,148,24,0.86,51.6247,-1.4123
+59,GHQ Line (East Sussex / Kent),172,67.9,27.5,161,11,168,1,0.994,51.1013,0.1708
+76,South East Command: Stop Line (East Kent),140,96.0,48.1,69,21,37,11,0.771,51.2238,1.1719
+58,GHQ Line (East Sussex),122,62.1,31.0,114,5,77,3,0.963,50.8894,0.0392
+66,London Stop Line: Central,107,126.5,37.6,25,55,19,6,0.76,51.5519,-0.0954
+77,South East Command: Stop Line (Romney Marsh),103,65.9,34.2,76,13,30,21,0.588,51.0592,0.951
+168,Western Command Stop Line No 1,96,102.2,101.0,23,31,39,56,0.411,52.3131,-2.3234
+19,Western Command Stop Line No 5,82,105.5,44.1,77,2,78,2,0.975,52.7966,-1.7182
+243,Western Command: Carmarthen Stop Line,79,86.5,54.6,43,26,48,23,0.676,51.8517,-4.343
+137,South East Command: Corps Stop Line (Guildford to Uckfield),66,46.8,36.6,39,26,60,1,0.984,51.043,-0.2247
+93,Eastern Command: River Orwell - River Gt. Ouse Stop Line,65,98.4,70.7,41,11,42,14,0.75,52.303,0.8343
+664,Aldershot Command: Farnborough / Aldershot stop line,60,46.4,20.2,42,15,43,11,0.796,51.2822,-0.693
+165,Western Command Stop Line No 28,56,61.3,59.3,12,19,13,37,0.26,52.2423,-2.4484
+323,Western Command Stop Line No 2,55,24.8,15.2,6,17,23,27,0.46,52.0987,-2.0479
+1,Western Command Stop Line No 6,50,58.2,84.7,38,8,41,8,0.837,52.9735,-1.9278
+679,Aldershot Command: Fleet / Farnham stop line,47,23.7,12.0,26,10,31,7,0.816,51.2584,-0.859
+226,Scottish Command: Command Stop Line,46,53.2,40.9,14,28,44,1,0.978,56.2574,-3.1689
+148,GHQ Line: Red (Sulham Valley sector),44,8.1,5.9,32,11,33,10,0.767,51.462,-1.0749
+803,South East Command: Stop Line (Oare to Warehorne),44,29.7,29.0,37,6,5,3,0.625,51.1637,0.8304
+297,Southern Command: Stop Line (Hook - Salisbury/Totton),42,37.3,62.6,28,7,36,1,0.973,51.1095,-1.4253
+60,South East Command: Corps (Rother) Stop Line,39,57.5,46.3,25,13,30,0,1.0,51.0031,0.3693
+419,South East Command: Stop Line (West Sussex),37,44.1,33.0,3,14,30,0,1.0,50.8985,-0.5356
+86,Eastern Command: II Corps Line B,35,99.9,99.3,21,8,23,5,0.821,52.5145,1.0374
+166,Western Command Stop Line No 8,34,65.5,66.3,15,16,24,8,0.75,52.8978,-2.5618
+255,Western Command Stop Line No 27,34,72.3,58.5,21,3,22,3,0.88,51.858,-2.6881
+234,Southern Command: Dorchester Stop Line,31,14.0,29.1,16,11,24,4,0.857,50.7704,-2.552
+302,Northern Command: Witham Stop Line,30,38.3,26.0,27,0,29,1,0.967,52.963,0.0126
+43,Eastern Command: Witham to Bradley Stop Line,29,62.6,47.7,20,4,9,17,0.346,51.9176,0.5306
+343,Northern Command: River Wansbeck Stop Line,27,22.3,14.4,25,0,19,7,0.731,55.169,-1.6914
+345,Northern Command: Wooler to Alnwick Stop Line,27,33.9,24.3,26,0,26,1,0.963,55.4707,-1.8232
+68,London Stop Line: Inner,26,39.0,19.2,12,9,14,0,1.0,51.5599,-0.1303
+85,Eastern Command: II Corps Line A,24,57.4,64.7,11,7,16,4,0.8,52.6449,1.221
+311,Western Command Stop Line No 14,23,24.7,19.8,12,4,22,1,0.957,53.5876,-2.8635
+678,South East Command: Division Stop Line,21,54.0,105.5,2,17,2,0,1.0,50.9234,-0.011
+352,Northern Command: Wooler to Belford Stop Line,18,18.4,13.3,18,0,17,1,0.944,55.5852,-1.9057
+209,Scottish Command: River Cowie Stop Line,17,12.3,11.0,7,10,17,0,1.0,56.9818,-2.2759
+184,Northern Command: Coquet Stop Line,15,28.1,23.0,14,1,11,3,0.786,55.3069,-1.7562
+253,Western Command Stop Line No 26,14,25.2,60.2,12,1,13,1,0.929,51.7489,-3.0246
+50,Southern Command: Ringwood Stop Line,13,14.0,37.1,6,1,7,2,0.778,50.9255,-1.7833
+118,Southern Command: Bodmin Stop Line,13,29.8,34.2,10,1,10,1,0.909,50.4139,-4.7121
+313,Northern Command: 59 Div. Reserve Stop Line,13,14.8,19.6,13,0,13,0,1.0,54.5091,-1.3083
+156,Southern Command: Oxford and Grand Union Canals Stop Line,12,14.9,52.0,6,4,10,2,0.833,52.1176,-1.3241
+774,South East Command: River Adur Stop Line,12,16.8,13.4,0,3,8,1,0.889,50.9146,-0.294
+733,Southern Command: Chichester Canal stop line,11,7.1,4.9,2,7,10,0,1.0,50.8113,-0.8043
+290,Western Command Stop Line No 18,10,41.4,38.9,5,2,6,0,1.0,54.7916,-2.7489
+783,Western Command Stop Line No 15,10,18.4,15.5,3,6,5,0,1.0,53.9403,-2.7957
+249,Western Command Stop Line No 23,9,6.5,15.0,7,0,9,0,1.0,53.0868,-4.0187
+309,Western Command Stop Line No 16,8,17.7,16.6,6,2,4,4,0.5,54.1231,-2.6576
+373,Western Command: River Severn Stop Line,8,6.1,20.9,8,0,7,1,0.875,51.7815,-2.3654
+423,Southern Command: River Wylye Stop Line,8,14.8,27.5,6,1,5,0,1.0,51.1326,-1.966
+433,GHQ Line (East Sussex/Kent - East Branch),8,17.4,14.8,7,1,4,3,0.571,51.1496,0.3233
+662,Northern Ireland District Stop Line B: Lough Neagh to Carlingford Lough,8,3.2,17.1,6,0,6,0,1.0,54.2963,-6.2838
+717,Southern Command: River Yar Stop Line,8,1.7,1.1,4,4,3,5,0.375,50.6794,-1.5104
+3,Southern Command: Dorchester - Poole Harbour Stop Line,7,13.2,24.3,6,0,6,0,1.0,50.706,-2.3361
+346,Western Command: Neath Valley Stop Line,6,5.8,17.5,5,1,3,3,0.5,51.6781,-3.7598
+499,Southern Command: Droitwich to Watling Street Stop Line,6,10.8,8.9,4,2,6,0,1.0,52.2602,-2.1724
+759,Eastern Command: Ipswich to Halesworth Stop Line,6,14.2,39.7,1,5,0,0,,52.2092,1.4068
+31,Eastern Command: Waterbeach - Huntingdon Stop Line,5,11.8,10.0,5,0,5,0,1.0,52.3159,-0.0871
+206,Scottish Command: River Dee Stop Line,5,7.1,44.0,4,0,5,0,1.0,57.1085,-2.3913
+246,Western Command: Clwydian Range Stop Line,5,5.6,34.9,4,0,5,0,1.0,53.154,-3.2306
+265,Eastern Command: Newmarket to Whittlesey Stop Line,5,18.9,30.9,3,0,5,0,1.0,52.4515,0.0994
+187,Western Command Stop Line No 7,4,4.2,19.8,4,0,2,2,0.5,52.7531,-2.0918
+310,Western Command Stop Line No 11,4,9.6,9.6,3,1,2,2,0.5,53.839,-2.2148
+436,Southern Command: River Stour Stop Line,4,14.0,30.9,1,0,1,0,1.0,50.7963,-2.0024
+241,Western Command Stop Line No 24,3,4.6,46.0,3,0,1,2,0.333,51.9373,-4.6541
+251,Western Command Stop Line No 21,3,5.9,5.9,0,3,3,0,1.0,52.7276,-3.8071
+303,Northern Command: Steeping River Stop Line,3,0.4,17.7,3,0,3,0,1.0,53.1475,0.1694
+667,Northern Ireland District Stop Line A: Portstewart - Lough Neagh,3,1.0,21.8,2,0,3,0,1.0,55.0101,-6.5979
+768,Southern Command: Stop Line (Chichester to Midhurst),3,17.2,17.1,0,0,0,0,,50.9069,-0.7592
+776,Southern Command: Stop Line (Cornwall / Devon),3,0.0,58.2,0,0,0,0,,50.7494,-3.5794
+260,Western Command Stop Line No 25,2,8.0,8.0,1,1,2,0,1.0,51.6941,-4.0584
+288,Western Command Stop Line No 20,2,0.0,29.1,2,0,2,0,1.0,54.7933,-3.2023
+308,Western Command Stop Line No 13,2,0.0,27.7,2,0,2,0,1.0,53.6019,-2.4736
+316,Northern Command: South Forty Foot Drain and River Glen Stop Line,2,0.0,10.9,1,1,2,0,1.0,52.9406,-0.1986
+372,Western Command Stop Line No 22,2,0.0,19.3,1,1,1,0,1.0,53.0049,-3.9245
+682,South East Command: Stop Line (Horsham to Dorking),2,0.0,14.0,0,2,0,0,,51.1293,-0.3293
+731,Southern Command: Gweek to Porthleven stop line,2,0.0,0.0,0,0,0,2,0.0,50.0933,-5.211
+761,South East Command: Stop Line (Burgess Hill to Ardingly),2,4.1,4.1,0,2,0,0,,50.9734,-0.1284
+775,Southern Command: River Exe Stop Line,2,0.0,30.2,0,0,0,0,,50.8527,-3.5143
+807,Northern Command: Stop Line (Napton-on-the-Hill to Nuneaton),2,2.1,2.1,0,2,2,0,1.0,52.2927,-1.2321
+926,GHQ Line (Section York - Barnard Castle),2,0.0,49.6,1,1,0,1,0.0,54.2315,-1.5167

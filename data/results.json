@@ -1,0 +1,2344 @@
+{
+ "n_sites": 14690,
+ "n_records_all": 14691,
+ "dob_meta": {
+  "n_records": 14691,
+  "n_placemarks": 15449,
+  "n_kmz_records": 14607,
+  "n_with_grid": 14690,
+  "coord_source": {
+   "kmz": 14607,
+   "grid reference": 83,
+   "none": 1
+  },
+  "kmz_vs_grid_median_m": 41.64960146214318,
+  "kmz_vs_grid_p90_m": 112.69007303754219,
+  "kmz_vs_grid_share_within_100m": 0.8871773807078798,
+  "kmz_vs_grid_share_within_1km": 0.9981515711645101,
+  "n_compared": 14607,
+  "grid_precision": {
+   "10": 7077,
+   "100": 6472,
+   "1": 781,
+   "1000": 360,
+   "": 1
+  },
+  "n_groups": 873
+ },
+ "n_ww2": 14522,
+ "n_by_period": {
+  "WW2": 14522,
+  "WW1": 91,
+  "Not recorded": 61,
+  "Cold War": 11,
+  "Pre-WW1": 5
+ },
+ "families": [
+  "Pillboxes",
+  "Anti-tank obstacles",
+  "Guns and batteries",
+  "Trenches, posts and defended places",
+  "Landing obstacles, mines and flame",
+  "Command, observation and support"
+ ],
+ "fam_counts": [
+  8104,
+  2455,
+  1054,
+  1418,
+  779,
+  880
+ ],
+ "fam_share": [
+  0.5516678012253233,
+  0.1671204901293397,
+  0.07174948944860449,
+  0.09652825051055139,
+  0.05302927161334241,
+  0.059904697072838665
+ ],
+ "top_types": [
+  {
+   "type": "PILLBOX",
+   "n": 3093,
+   "fam": 0
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/24)",
+   "n": 1791,
+   "fam": 0
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/22)",
+   "n": 1226,
+   "fam": 0
+  },
+  {
+   "type": "PILLBOX (VARIANT)",
+   "n": 693,
+   "fam": 0
+  },
+  {
+   "type": "ROADBLOCK",
+   "n": 566,
+   "fam": 1
+  },
+  {
+   "type": "ANTI TANK BLOCK",
+   "n": 415,
+   "fam": 1
+  },
+  {
+   "type": "CUBE",
+   "n": 392,
+   "fam": 1
+  },
+  {
+   "type": "SPIGOT MORTAR EMPLACEMENT",
+   "n": 350,
+   "fam": 2
+  },
+  {
+   "type": "PIMPLE",
+   "n": 345,
+   "fam": 1
+  },
+  {
+   "type": "AUXILIARY UNIT OPERATIONAL BASE",
+   "n": 274,
+   "fam": 5
+  },
+  {
+   "type": "COAST BATTERY",
+   "n": 247,
+   "fam": 2
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/28A)",
+   "n": 236,
+   "fam": 0
+  },
+  {
+   "type": "ANTI SEAPLANE OBSTACLE",
+   "n": 223,
+   "fam": 4
+  },
+  {
+   "type": "GUN EMPLACEMENT",
+   "n": 221,
+   "fam": 2
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/26)",
+   "n": 192,
+   "fam": 0
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/28)",
+   "n": 186,
+   "fam": 0
+  },
+  {
+   "type": "ANTI TANK DITCH",
+   "n": 181,
+   "fam": 1
+  },
+  {
+   "type": "CYLINDER",
+   "n": 179,
+   "fam": 1
+  },
+  {
+   "type": "ALLAN WILLIAMS TURRET",
+   "n": 168,
+   "fam": 0
+  },
+  {
+   "type": "WEAPON PIT",
+   "n": 164,
+   "fam": 3
+  }
+ ],
+ "n_types": 162,
+ "pillbox_types": [
+  {
+   "type": "PILLBOX",
+   "n": 3093
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/24)",
+   "n": 1791
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/22)",
+   "n": 1226
+  },
+  {
+   "type": "PILLBOX (VARIANT)",
+   "n": 693
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/28A)",
+   "n": 236
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/26)",
+   "n": 192
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/28)",
+   "n": 186
+  },
+  {
+   "type": "ALLAN WILLIAMS TURRET",
+   "n": 168
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/23)",
+   "n": 153
+  },
+  {
+   "type": "PILLBOX (TYPE FW3/27)",
+   "n": 129
+  }
+ ],
+ "n_pillbox": 8104,
+ "n_pillbox_type22_24": 3017,
+ "n_pillbox_generic": 3093,
+ "condition": {
+  "Good": 3278,
+  "Fair": 2281,
+  "Bad": 614,
+  "Very Bad": 294,
+  "Extant but condition unknown": 2108,
+  "Removed": 3344,
+  "Infilled": 184,
+  "Unknown": 2587
+ },
+ "status_standing": 8575,
+ "status_gone": 3528,
+ "status_not_known": 2587,
+ "share_standing_all": 0.5837304288631723,
+ "share_standing_known": 0.708502024291498,
+ "share_gone_all": 0.2401633764465623,
+ "fam_status": [
+  {
+   "family": "Pillboxes",
+   "n": 8104,
+   "standing": 5693,
+   "gone": 1344,
+   "unknown": 1067,
+   "share_standing_known": 0.8090095211027426
+  },
+  {
+   "family": "Anti-tank obstacles",
+   "n": 2455,
+   "standing": 1090,
+   "gone": 840,
+   "unknown": 525,
+   "share_standing_known": 0.5647668393782384
+  },
+  {
+   "family": "Guns and batteries",
+   "n": 1054,
+   "standing": 743,
+   "gone": 221,
+   "unknown": 90,
+   "share_standing_known": 0.770746887966805
+  },
+  {
+   "family": "Trenches, posts and defended places",
+   "n": 1418,
+   "standing": 481,
+   "gone": 491,
+   "unknown": 446,
+   "share_standing_known": 0.4948559670781893
+  },
+  {
+   "family": "Landing obstacles, mines and flame",
+   "n": 779,
+   "standing": 62,
+   "gone": 453,
+   "unknown": 264,
+   "share_standing_known": 0.1203883495145631
+  },
+  {
+   "family": "Command, observation and support",
+   "n": 880,
+   "standing": 506,
+   "gone": 179,
+   "unknown": 195,
+   "share_standing_known": 0.7386861313868613
+  }
+ ],
+ "pillbox_standing": 5693,
+ "pillbox_gone": 1344,
+ "pillbox_good_fair": 3689,
+ "refs": {
+  "built_total": 28000,
+  "survive_total": 6500,
+  "built_by_sept_1940": 18000,
+  "built_note": "About 28,000 pillboxes and other hardened field fortifications were constructed in the United Kingdom of which about 6,500 still survive (Wikipedia, British anti-invasion preparations of the Second World War, citing the CBA review of the Defence of Britain Project)",
+  "sept_note": "by the end of September 1940, 18,000 pillboxes and numerous other preparations had been completed (same article)"
+ },
+ "n_built_year": 14042,
+ "built_1940": 13305,
+ "share_built_1940": 0.9475145990599629,
+ "built_years": {
+  "1938": 5,
+  "1939": 111,
+  "1940": 13305,
+  "1941": 454,
+  "1942": 35,
+  "1943": 21,
+  "1944": 2,
+  "1945": 3
+ },
+ "n_visit_year": 8411,
+ "visit_median": 1997,
+ "visit_share_1994_2002": 0.793603614314588,
+ "visit_years": {
+  "1960": 1,
+  "1970": 1,
+  "1975": 2,
+  "1977": 1,
+  "1978": 1,
+  "1979": 2,
+  "1980": 6,
+  "1981": 2,
+  "1982": 4,
+  "1983": 21,
+  "1984": 13,
+  "1985": 47,
+  "1986": 45,
+  "1987": 116,
+  "1988": 215,
+  "1989": 82,
+  "1990": 24,
+  "1991": 70,
+  "1992": 356,
+  "1993": 212,
+  "1994": 450,
+  "1995": 1453,
+  "1996": 872,
+  "1997": 1078,
+  "1998": 873,
+  "1999": 728,
+  "2000": 544,
+  "2001": 459,
+  "2002": 218,
+  "2003": 454,
+  "2004": 60,
+  "2005": 1
+ },
+ "county_top": [
+  {
+   "county": "Kent",
+   "n": 1539
+  },
+  {
+   "county": "Norfolk",
+   "n": 1016
+  },
+  {
+   "county": "Surrey",
+   "n": 797
+  },
+  {
+   "county": "Redcar & Cleveland",
+   "n": 628
+  },
+  {
+   "county": "Essex",
+   "n": 611
+  },
+  {
+   "county": "Worcestershire",
+   "n": 548
+  },
+  {
+   "county": "Suffolk",
+   "n": 532
+  },
+  {
+   "county": "Sussex, East",
+   "n": 491
+  },
+  {
+   "county": "Hampshire",
+   "n": 490
+  },
+  {
+   "county": "Somerset",
+   "n": 432
+  },
+  {
+   "county": "Dorset",
+   "n": 414
+  },
+  {
+   "county": "Cornwall",
+   "n": 399
+  },
+  {
+   "county": "Lincolnshire",
+   "n": 338
+  },
+  {
+   "county": "London, Greater",
+   "n": 336
+  },
+  {
+   "county": "Cambridgeshire",
+   "n": 312
+  },
+  {
+   "county": "Wiltshire",
+   "n": 311
+  },
+  {
+   "county": "Northumberland",
+   "n": 303
+  },
+  {
+   "county": "Sussex, West",
+   "n": 295
+  },
+  {
+   "county": "Devon",
+   "n": 288
+  },
+  {
+   "county": "Hertfordshire",
+   "n": 262
+  }
+ ],
+ "n_counties": 153,
+ "county_named": {
+  "Kent": 1539,
+  "Norfolk": 1016,
+  "Redcar & Cleveland": 628,
+  "Devon": 288,
+  "Essex": 611,
+  "Worcestershire": 548,
+  "Lancashire": 83,
+  "Sussex, East": 491,
+  "Cornwall": 399
+ },
+ "n_groups": 873,
+ "groups_by_kind": {
+  "airfield defences": 264,
+  "nodal point": 215,
+  "other": 165,
+  "stop line": 105,
+  "anti-tank island": 76,
+  "coast defences": 48
+ },
+ "n_in_any_group": 12322,
+ "share_in_any_group": 0.8388019060585432,
+ "n_stop_line_groups": 90,
+ "n_on_stop_lines": 5412,
+ "share_on_stop_lines": 0.3684138869979578,
+ "stop_lines_drawn_km": 3929.1000000000004,
+ "stop_lines_top": [
+  {
+   "group_id": 71,
+   "name": "GHQ Line (Berkshire/Hampshire/Surrey/Kent)",
+   "n_sites": 850,
+   "drawn_km": 255.9,
+   "span_km": 89.7,
+   "n_pillbox": 696,
+   "n_antitank": 128,
+   "standing": 696,
+   "gone": 84,
+   "share_standing_known": 0.892,
+   "lat": 51.2196,
+   "lon": -0.4585
+  },
+  {
+   "group_id": 32,
+   "name": "London Stop Line: Outer",
+   "n_sites": 387,
+   "drawn_km": 220.2,
+   "span_km": 52.0,
+   "n_pillbox": 187,
+   "n_antitank": 176,
+   "standing": 153,
+   "gone": 109,
+   "share_standing_known": 0.584,
+   "lat": 51.5303,
+   "lon": -0.1778
+  },
+  {
+   "group_id": 9,
+   "name": "GHQ Line: Green",
+   "n_sites": 316,
+   "drawn_km": 150.7,
+   "span_km": 77.2,
+   "n_pillbox": 248,
+   "n_antitank": 59,
+   "standing": 267,
+   "gone": 45,
+   "share_standing_known": 0.856,
+   "lat": 51.3684,
+   "lon": -2.4227
+  },
+  {
+   "group_id": 44,
+   "name": "Eastern Command: Corps and Command Stop Lines",
+   "n_sites": 315,
+   "drawn_km": 226.1,
+   "span_km": 114.5,
+   "n_pillbox": 236,
+   "n_antitank": 37,
+   "standing": 217,
+   "gone": 76,
+   "share_standing_known": 0.741,
+   "lat": 52.2883,
+   "lon": 0.5276
+  },
+  {
+   "group_id": 2,
+   "name": "Southern Command: Taunton Stop Line",
+   "n_sites": 302,
+   "drawn_km": 106.2,
+   "span_km": 378.2,
+   "n_pillbox": 163,
+   "n_antitank": 80,
+   "standing": 199,
+   "gone": 59,
+   "share_standing_known": 0.771,
+   "lat": 50.9032,
+   "lon": -2.9895
+  },
+  {
+   "group_id": 34,
+   "name": "GHQ Line (Essex)",
+   "n_sites": 299,
+   "drawn_km": 116.4,
+   "span_km": 62.0,
+   "n_pillbox": 248,
+   "n_antitank": 16,
+   "standing": 248,
+   "gone": 26,
+   "share_standing_known": 0.905,
+   "lat": 51.8262,
+   "lon": 0.408
+  },
+  {
+   "group_id": 18,
+   "name": "GHQ Line: Blue",
+   "n_sites": 270,
+   "drawn_km": 117.6,
+   "span_km": 85.2,
+   "n_pillbox": 180,
+   "n_antitank": 79,
+   "standing": 216,
+   "gone": 44,
+   "share_standing_known": 0.831,
+   "lat": 51.3791,
+   "lon": -1.6538
+  },
+  {
+   "group_id": 73,
+   "name": "GHQ Line (North West Kent)",
+   "n_sites": 226,
+   "drawn_km": 104.3,
+   "span_km": 37.8,
+   "n_pillbox": 175,
+   "n_antitank": 40,
+   "standing": 171,
+   "gone": 29,
+   "share_standing_known": 0.855,
+   "lat": 51.3208,
+   "lon": 0.4642
+  },
+  {
+   "group_id": 183,
+   "name": "GHQ Line (Cambridgeshire and Peterborough)",
+   "n_sites": 226,
+   "drawn_km": 168.8,
+   "span_km": 71.4,
+   "n_pillbox": 178,
+   "n_antitank": 26,
+   "standing": 121,
+   "gone": 101,
+   "share_standing_known": 0.545,
+   "lat": 52.4114,
+   "lon": 0.0899
+  },
+  {
+   "group_id": 147,
+   "name": "GHQ Line: Red",
+   "n_sites": 174,
+   "drawn_km": 109.8,
+   "span_km": 74.1,
+   "n_pillbox": 132,
+   "n_antitank": 25,
+   "standing": 148,
+   "gone": 24,
+   "share_standing_known": 0.86,
+   "lat": 51.6247,
+   "lon": -1.4123
+  },
+  {
+   "group_id": 59,
+   "name": "GHQ Line (East Sussex / Kent)",
+   "n_sites": 172,
+   "drawn_km": 67.9,
+   "span_km": 27.5,
+   "n_pillbox": 161,
+   "n_antitank": 11,
+   "standing": 168,
+   "gone": 1,
+   "share_standing_known": 0.994,
+   "lat": 51.1013,
+   "lon": 0.1708
+  },
+  {
+   "group_id": 76,
+   "name": "South East Command: Stop Line (East Kent)",
+   "n_sites": 140,
+   "drawn_km": 96.0,
+   "span_km": 48.1,
+   "n_pillbox": 69,
+   "n_antitank": 21,
+   "standing": 37,
+   "gone": 11,
+   "share_standing_known": 0.771,
+   "lat": 51.2238,
+   "lon": 1.1719
+  },
+  {
+   "group_id": 58,
+   "name": "GHQ Line (East Sussex)",
+   "n_sites": 122,
+   "drawn_km": 62.1,
+   "span_km": 31.0,
+   "n_pillbox": 114,
+   "n_antitank": 5,
+   "standing": 77,
+   "gone": 3,
+   "share_standing_known": 0.963,
+   "lat": 50.8894,
+   "lon": 0.0392
+  },
+  {
+   "group_id": 66,
+   "name": "London Stop Line: Central",
+   "n_sites": 107,
+   "drawn_km": 126.5,
+   "span_km": 37.6,
+   "n_pillbox": 25,
+   "n_antitank": 55,
+   "standing": 19,
+   "gone": 6,
+   "share_standing_known": 0.76,
+   "lat": 51.5519,
+   "lon": -0.0954
+  },
+  {
+   "group_id": 77,
+   "name": "South East Command: Stop Line (Romney Marsh)",
+   "n_sites": 103,
+   "drawn_km": 65.9,
+   "span_km": 34.2,
+   "n_pillbox": 76,
+   "n_antitank": 13,
+   "standing": 30,
+   "gone": 21,
+   "share_standing_known": 0.588,
+   "lat": 51.0592,
+   "lon": 0.951
+  }
+ ],
+ "ghq_sections": 12,
+ "ghq_sites": 2675,
+ "ghq_drawn_km": 1179.0,
+ "ghq_share_standing_known": 0.8520900321543409,
+ "taunton": {
+  "group_id": 2,
+  "name": "Southern Command: Taunton Stop Line",
+  "n_sites": 302,
+  "drawn_km": 106.2,
+  "span_km": 378.2,
+  "n_pillbox": 163,
+  "n_antitank": 80,
+  "standing": 199,
+  "gone": 59,
+  "share_standing_known": 0.771,
+  "lat": 50.9032,
+  "lon": -2.9895
+ },
+ "taunton_wiki_pillboxes_1942": 309,
+ "stop_line_share_standing_known": 0.80724197745013,
+ "off_line_share_standing_known": 0.6477105860365773,
+ "stop_lines_best_survival": [
+  {
+   "group_id": 59,
+   "name": "GHQ Line (East Sussex / Kent)",
+   "n_sites": 172,
+   "drawn_km": 67.9,
+   "span_km": 27.5,
+   "n_pillbox": 161,
+   "n_antitank": 11,
+   "standing": 168,
+   "gone": 1,
+   "share_standing_known": 0.994,
+   "lat": 51.1013,
+   "lon": 0.1708
+  },
+  {
+   "group_id": 137,
+   "name": "South East Command: Corps Stop Line (Guildford to Uckfield)",
+   "n_sites": 66,
+   "drawn_km": 46.8,
+   "span_km": 36.6,
+   "n_pillbox": 39,
+   "n_antitank": 26,
+   "standing": 60,
+   "gone": 1,
+   "share_standing_known": 0.984,
+   "lat": 51.043,
+   "lon": -0.2247
+  },
+  {
+   "group_id": 226,
+   "name": "Scottish Command: Command Stop Line",
+   "n_sites": 46,
+   "drawn_km": 53.2,
+   "span_km": 40.9,
+   "n_pillbox": 14,
+   "n_antitank": 28,
+   "standing": 44,
+   "gone": 1,
+   "share_standing_known": 0.978,
+   "lat": 56.2574,
+   "lon": -3.1689
+  },
+  {
+   "group_id": 19,
+   "name": "Western Command Stop Line No 5",
+   "n_sites": 82,
+   "drawn_km": 105.5,
+   "span_km": 44.1,
+   "n_pillbox": 77,
+   "n_antitank": 2,
+   "standing": 78,
+   "gone": 2,
+   "share_standing_known": 0.975,
+   "lat": 52.7966,
+   "lon": -1.7182
+  },
+  {
+   "group_id": 297,
+   "name": "Southern Command: Stop Line (Hook - Salisbury/Totton)",
+   "n_sites": 42,
+   "drawn_km": 37.3,
+   "span_km": 62.6,
+   "n_pillbox": 28,
+   "n_antitank": 7,
+   "standing": 36,
+   "gone": 1,
+   "share_standing_known": 0.973,
+   "lat": 51.1095,
+   "lon": -1.4253
+  }
+ ],
+ "stop_lines_worst_survival": [
+  {
+   "group_id": 165,
+   "name": "Western Command Stop Line No 28",
+   "n_sites": 56,
+   "drawn_km": 61.3,
+   "span_km": 59.3,
+   "n_pillbox": 12,
+   "n_antitank": 19,
+   "standing": 13,
+   "gone": 37,
+   "share_standing_known": 0.26,
+   "lat": 52.2423,
+   "lon": -2.4484
+  },
+  {
+   "group_id": 168,
+   "name": "Western Command Stop Line No 1",
+   "n_sites": 96,
+   "drawn_km": 102.2,
+   "span_km": 101.0,
+   "n_pillbox": 23,
+   "n_antitank": 31,
+   "standing": 39,
+   "gone": 56,
+   "share_standing_known": 0.411,
+   "lat": 52.3131,
+   "lon": -2.3234
+  },
+  {
+   "group_id": 323,
+   "name": "Western Command Stop Line No 2",
+   "n_sites": 55,
+   "drawn_km": 24.8,
+   "span_km": 15.2,
+   "n_pillbox": 6,
+   "n_antitank": 17,
+   "standing": 23,
+   "gone": 27,
+   "share_standing_known": 0.46,
+   "lat": 52.0987,
+   "lon": -2.0479
+  },
+  {
+   "group_id": 183,
+   "name": "GHQ Line (Cambridgeshire and Peterborough)",
+   "n_sites": 226,
+   "drawn_km": 168.8,
+   "span_km": 71.4,
+   "n_pillbox": 178,
+   "n_antitank": 26,
+   "standing": 121,
+   "gone": 101,
+   "share_standing_known": 0.545,
+   "lat": 52.4114,
+   "lon": 0.0899
+  },
+  {
+   "group_id": 32,
+   "name": "London Stop Line: Outer",
+   "n_sites": 387,
+   "drawn_km": 220.2,
+   "span_km": 52.0,
+   "n_pillbox": 187,
+   "n_antitank": 176,
+   "standing": 153,
+   "gone": 109,
+   "share_standing_known": 0.584,
+   "lat": 51.5303,
+   "lon": -0.1778
+  }
+ ],
+ "n_stop_lines_40plus": 29,
+ "stop_line_cut_km": 10.0,
+ "coast": {
+  "se_km": 2060.7512952726784,
+  "landing_km": 81.39089994120893,
+  "rest_km": 1979.3523975620135,
+  "landing_share_of_se": 0.03949574125122134,
+  "beaches": {
+   "B": {
+    "start": "Folkestone",
+    "end": "New Romney",
+    "km": 20.017367979222595,
+    "n10": 227,
+    "per_km": 11.340152223589982
+   },
+   "C": {
+    "start": "Rye",
+    "end": "Hastings",
+    "km": 15.771228570955099,
+    "n10": 34,
+    "per_km": 2.1558244398673994
+   },
+   "D": {
+    "start": "Bexhill",
+    "end": "Eastbourne",
+    "km": 16.464438930432525,
+    "n10": 56,
+    "per_km": 3.4012698663232777
+   },
+   "E": {
+    "start": "Beachy Head",
+    "end": "Brighton",
+    "km": 29.137864460598706,
+    "n10": 136,
+    "per_km": 4.6674662854549345
+   }
+  },
+  "note": "The definitive order of battle adopted on 30 August 1940 envisaged landings on beach B between Folkestone and New Romney, beach C between Rye and Hastings, beach D between Bexhill and Eastbourne and beach E between Beachy Head and Brighton (Wikipedia, Operation Sea Lion, citing McKinstry 2014, p. 315). A single airborne division would land in Kent north of Hythe."
+ },
+ "sealion": {
+  "all": {
+   "5": {
+    "km": 5,
+    "landing": 360,
+    "rest": 4083,
+    "per_km_landing": 4.423098900000353,
+    "per_km_rest": 2.0627958947729916,
+    "ratio": 2.1442251805950536,
+    "share_of_se_coastal_in_landing": 0.08102633355840648
+   },
+   "10": {
+    "km": 10,
+    "landing": 453,
+    "rest": 4866,
+    "per_km_landing": 5.565732782500444,
+    "per_km_rest": 2.458379824630266,
+    "ratio": 2.263984078757039,
+    "share_of_se_coastal_in_landing": 0.08516638465877044
+   },
+   "20": {
+    "km": 20,
+    "landing": 552,
+    "rest": 5929,
+    "per_km_landing": 6.782084980000541,
+    "per_km_rest": 2.995424163631905,
+    "ratio": 2.264148450941709,
+    "share_of_se_coastal_in_landing": 0.08517204135164326
+   }
+  },
+  "pillboxes": {
+   "5": {
+    "km": 5,
+    "landing": 241,
+    "rest": 1951,
+    "per_km_landing": 2.9610189858335696,
+    "per_km_rest": 0.9856759222880497,
+    "ratio": 3.004049220315898,
+    "share_of_se_coastal_in_landing": 0.10994525547445255
+   },
+   "10": {
+    "km": 10,
+    "landing": 294,
+    "rest": 2321,
+    "per_km_landing": 3.6121974350002883,
+    "per_km_rest": 1.1726057486573875,
+    "ratio": 3.080487571492967,
+    "share_of_se_coastal_in_landing": 0.1124282982791587
+   },
+   "20": {
+    "km": 20,
+    "landing": 370,
+    "rest": 2902,
+    "per_km_landing": 4.545962758333696,
+    "per_km_rest": 1.4661360976319426,
+    "ratio": 3.1006417246503877,
+    "share_of_se_coastal_in_landing": 0.11308068459657701
+   }
+  },
+  "antitank": {
+   "5": {
+    "km": 5,
+    "landing": 45,
+    "rest": 552,
+    "per_km_landing": 0.5528873625000441,
+    "per_km_rest": 0.2788790923131745,
+    "ratio": 1.9825342872213776,
+    "share_of_se_coastal_in_landing": 0.07537688442211055
+   },
+   "10": {
+    "km": 10,
+    "landing": 63,
+    "rest": 686,
+    "per_km_landing": 0.7740423075000618,
+    "per_km_rest": 0.34657800240369147,
+    "ratio": 2.2333855643800007,
+    "share_of_se_coastal_in_landing": 0.08411214953271028
+   },
+   "20": {
+    "km": 20,
+    "landing": 74,
+    "rest": 883,
+    "per_km_landing": 0.9091925516667392,
+    "per_km_rest": 0.44610550455169035,
+    "ratio": 2.0380662027033805,
+    "share_of_se_coastal_in_landing": 0.07732497387669801
+   }
+  },
+  "guns": {
+   "5": {
+    "km": 5,
+    "landing": 20,
+    "rest": 488,
+    "per_km_landing": 0.24572771666668627,
+    "per_km_rest": 0.24654528450874846,
+    "ratio": 0.9966839039582881,
+    "share_of_se_coastal_in_landing": 0.03937007874015748
+   },
+   "10": {
+    "km": 10,
+    "landing": 21,
+    "rest": 527,
+    "per_km_landing": 0.2580141025000206,
+    "per_km_rest": 0.26624869863957057,
+    "ratio": 0.9690717882129543,
+    "share_of_se_coastal_in_landing": 0.03832116788321168
+   },
+   "20": {
+    "km": 20,
+    "landing": 22,
+    "rest": 586,
+    "per_km_landing": 0.2703004883333549,
+    "per_km_rest": 0.2960564277092758,
+    "ratio": 0.9130032758443841,
+    "share_of_se_coastal_in_landing": 0.03618421052631579
+   }
+  },
+  "landing_obstacles": {
+   "5": {
+    "km": 5,
+    "landing": 11,
+    "rest": 359,
+    "per_km_landing": 0.13515024416667745,
+    "per_km_rest": 0.18137245315295225,
+    "ratio": 0.7451530914273107,
+    "share_of_se_coastal_in_landing": 0.02972972972972973
+   },
+   "10": {
+    "km": 10,
+    "landing": 20,
+    "rest": 423,
+    "per_km_landing": 0.24572771666668627,
+    "per_km_rest": 0.21370626095737827,
+    "ratio": 1.1498386409731551,
+    "share_of_se_coastal_in_landing": 0.045146726862302484
+   },
+   "20": {
+    "km": 20,
+    "landing": 21,
+    "rest": 452,
+    "per_km_landing": 0.2580141025000206,
+    "per_km_rest": 0.2283575176187588,
+    "ratio": 1.1298690982040418,
+    "share_of_se_coastal_in_landing": 0.04439746300211417
+   }
+  }
+ },
+ "sealion_continuous": {
+  "landing_km": 116.17950684460419,
+  "rest_km": 1944.5697884280726,
+  "all": {
+   "landing": 499,
+   "rest": 4820,
+   "ratio": 1.7327963035217753
+  },
+  "pillboxes": {
+   "landing": 324,
+   "rest": 2291,
+   "ratio": 2.36708539845635
+  }
+ },
+ "n_within10_se": 5319,
+ "share_within10_se": 0.36208304969366917,
+ "n_within10_anycoast": 7136,
+ "share_within10_anycoast": 0.4857726344452008,
+ "coast_segments": [
+  {
+   "seg": 0,
+   "start_km": 0.0,
+   "km": 24.999999999999996,
+   "lat": 50.0598,
+   "lon": -5.5632,
+   "n10": 60,
+   "n10_pillbox": 44,
+   "per_km": 2.4000000000000004,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 1,
+   "start_km": 25.0,
+   "km": 25.000000000000007,
+   "lat": 50.0837,
+   "lon": -5.3116,
+   "n10": 31,
+   "n10_pillbox": 11,
+   "per_km": 1.2399999999999995,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 2,
+   "start_km": 50.0,
+   "km": 24.999999999999996,
+   "lat": 50.0152,
+   "lon": -5.1306,
+   "n10": 27,
+   "n10_pillbox": 12,
+   "per_km": 1.08,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 3,
+   "start_km": 75.0,
+   "km": 25.000000000000004,
+   "lat": 50.1448,
+   "lon": -5.0444,
+   "n10": 48,
+   "n10_pillbox": 23,
+   "per_km": 1.9199999999999997,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 4,
+   "start_km": 100.0,
+   "km": 24.999999999999996,
+   "lat": 50.2073,
+   "lon": -4.91,
+   "n10": 24,
+   "n10_pillbox": 7,
+   "per_km": 0.9600000000000002,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 5,
+   "start_km": 125.0,
+   "km": 25.000000000000007,
+   "lat": 50.3364,
+   "lon": -4.7095,
+   "n10": 37,
+   "n10_pillbox": 15,
+   "per_km": 1.4799999999999995,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 6,
+   "start_km": 150.0,
+   "km": 25.000000000000036,
+   "lat": 50.3565,
+   "lon": -4.4111,
+   "n10": 37,
+   "n10_pillbox": 13,
+   "per_km": 1.479999999999998,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 7,
+   "start_km": 175.0,
+   "km": 24.999999999999954,
+   "lat": 50.3586,
+   "lon": -4.2058,
+   "n10": 18,
+   "n10_pillbox": 2,
+   "per_km": 0.7200000000000013,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 8,
+   "start_km": 200.0,
+   "km": 25.000000000000007,
+   "lat": 50.4384,
+   "lon": -4.2213,
+   "n10": 6,
+   "n10_pillbox": 1,
+   "per_km": 0.23999999999999994,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 9,
+   "start_km": 225.0,
+   "km": 25.000000000000007,
+   "lat": 50.3373,
+   "lon": -4.1088,
+   "n10": 22,
+   "n10_pillbox": 8,
+   "per_km": 0.8799999999999998,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 10,
+   "start_km": 250.0,
+   "km": 25.000000000000092,
+   "lat": 50.2569,
+   "lon": -3.8548,
+   "n10": 17,
+   "n10_pillbox": 10,
+   "per_km": 0.6799999999999975,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 11,
+   "start_km": 275.0,
+   "km": 25.00000000000001,
+   "lat": 50.287,
+   "lon": -3.6415,
+   "n10": 13,
+   "n10_pillbox": 7,
+   "per_km": 0.5199999999999998,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 12,
+   "start_km": 300.0,
+   "km": 25.000000000000046,
+   "lat": 50.4102,
+   "lon": -3.5311,
+   "n10": 20,
+   "n10_pillbox": 8,
+   "per_km": 0.7999999999999985,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 13,
+   "start_km": 325.0,
+   "km": 24.999999999999922,
+   "lat": 50.5892,
+   "lon": -3.4631,
+   "n10": 58,
+   "n10_pillbox": 30,
+   "per_km": 2.3200000000000074,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 14,
+   "start_km": 350.0,
+   "km": 25.00000000000005,
+   "lat": 50.6277,
+   "lon": -3.3305,
+   "n10": 10,
+   "n10_pillbox": 7,
+   "per_km": 0.3999999999999992,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 15,
+   "start_km": 375.0,
+   "km": 25.000000000000043,
+   "lat": 50.7089,
+   "lon": -3.0353,
+   "n10": 154,
+   "n10_pillbox": 75,
+   "per_km": 6.1599999999999895,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 16,
+   "start_km": 400.0,
+   "km": 24.99999999999998,
+   "lat": 50.695,
+   "lon": -2.7022,
+   "n10": 84,
+   "n10_pillbox": 41,
+   "per_km": 3.360000000000003,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 17,
+   "start_km": 425.0,
+   "km": 25.00000000000001,
+   "lat": 50.5439,
+   "lon": -2.4599,
+   "n10": 106,
+   "n10_pillbox": 41,
+   "per_km": 4.239999999999998,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 18,
+   "start_km": 450.0,
+   "km": 25.000000000000036,
+   "lat": 50.6328,
+   "lon": -2.3295,
+   "n10": 41,
+   "n10_pillbox": 23,
+   "per_km": 1.6399999999999977,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 19,
+   "start_km": 475.0,
+   "km": 25.00000000000003,
+   "lat": 50.5966,
+   "lon": -1.9857,
+   "n10": 66,
+   "n10_pillbox": 23,
+   "per_km": 2.639999999999997,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 20,
+   "start_km": 500.0,
+   "km": 25.00000000000007,
+   "lat": 50.711,
+   "lon": -2.071,
+   "n10": 21,
+   "n10_pillbox": 5,
+   "per_km": 0.8399999999999976,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 21,
+   "start_km": 525.0,
+   "km": 24.9999999999999,
+   "lat": 50.7246,
+   "lon": -1.8096,
+   "n10": 11,
+   "n10_pillbox": 5,
+   "per_km": 0.4400000000000017,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 22,
+   "start_km": 550.0,
+   "km": 25.00000000000003,
+   "lat": 50.7593,
+   "lon": -1.5092,
+   "n10": 63,
+   "n10_pillbox": 25,
+   "per_km": 2.5199999999999974,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 23,
+   "start_km": 575.0,
+   "km": 25.000000000000117,
+   "lat": 50.8591,
+   "lon": -1.37,
+   "n10": 13,
+   "n10_pillbox": 6,
+   "per_km": 0.5199999999999976,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 24,
+   "start_km": 600.0,
+   "km": 24.999999999999986,
+   "lat": 50.841,
+   "lon": -1.2935,
+   "n10": 42,
+   "n10_pillbox": 27,
+   "per_km": 1.680000000000001,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 25,
+   "start_km": 625.0,
+   "km": 25.0000000000001,
+   "lat": 50.848,
+   "lon": -1.1229,
+   "n10": 75,
+   "n10_pillbox": 42,
+   "per_km": 2.999999999999988,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 26,
+   "start_km": 650.0,
+   "km": 24.999999999999975,
+   "lat": 50.8465,
+   "lon": -0.9669,
+   "n10": 63,
+   "n10_pillbox": 29,
+   "per_km": 2.5200000000000027,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 27,
+   "start_km": 675.0,
+   "km": 25.00000000000006,
+   "lat": 50.7342,
+   "lon": -0.81,
+   "n10": 32,
+   "n10_pillbox": 13,
+   "per_km": 1.279999999999997,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 28,
+   "start_km": 700.0,
+   "km": 24.999999999999957,
+   "lat": 50.8021,
+   "lon": -0.5325,
+   "n10": 58,
+   "n10_pillbox": 15,
+   "per_km": 2.320000000000004,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 29,
+   "start_km": 725.0,
+   "km": 24.99999999999997,
+   "lat": 50.8302,
+   "lon": -0.1923,
+   "n10": 91,
+   "n10_pillbox": 41,
+   "per_km": 3.640000000000004,
+   "landing": false,
+   "landing_share": 0.344
+  },
+  {
+   "seg": 30,
+   "start_km": 750.0,
+   "km": 24.999999999999915,
+   "lat": 50.7609,
+   "lon": 0.1393,
+   "n10": 115,
+   "n10_pillbox": 81,
+   "per_km": 4.600000000000016,
+   "landing": true,
+   "landing_share": 0.865
+  },
+  {
+   "seg": 31,
+   "start_km": 775.0,
+   "km": 25.00000000000002,
+   "lat": 50.8325,
+   "lon": 0.4306,
+   "n10": 71,
+   "n10_pillbox": 26,
+   "per_km": 2.8399999999999976,
+   "landing": true,
+   "landing_share": 0.688
+  },
+  {
+   "seg": 32,
+   "start_km": 800.0,
+   "km": 24.999999999999854,
+   "lat": 50.9202,
+   "lon": 0.7451,
+   "n10": 51,
+   "n10_pillbox": 30,
+   "per_km": 2.040000000000012,
+   "landing": true,
+   "landing_share": 0.57
+  },
+  {
+   "seg": 33,
+   "start_km": 825.0,
+   "km": 25.000000000000032,
+   "lat": 50.9817,
+   "lon": 0.9666,
+   "n10": 118,
+   "n10_pillbox": 83,
+   "per_km": 4.7199999999999935,
+   "landing": false,
+   "landing_share": 0.497
+  },
+  {
+   "seg": 34,
+   "start_km": 850.0,
+   "km": 25.00000000000008,
+   "lat": 51.1034,
+   "lon": 1.2362,
+   "n10": 468,
+   "n10_pillbox": 283,
+   "per_km": 18.71999999999994,
+   "landing": false,
+   "landing_share": 0.307
+  },
+  {
+   "seg": 35,
+   "start_km": 875.0,
+   "km": 25.000000000000135,
+   "lat": 51.263,
+   "lon": 1.4033,
+   "n10": 214,
+   "n10_pillbox": 132,
+   "per_km": 8.559999999999954,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 36,
+   "start_km": 900.0,
+   "km": 25.000000000000036,
+   "lat": 51.387,
+   "lon": 1.3349,
+   "n10": 140,
+   "n10_pillbox": 92,
+   "per_km": 5.599999999999992,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 37,
+   "start_km": 925.0,
+   "km": 24.99999999999992,
+   "lat": 51.3502,
+   "lon": 0.9825,
+   "n10": 85,
+   "n10_pillbox": 43,
+   "per_km": 3.400000000000011,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 38,
+   "start_km": 950.0,
+   "km": 25.00000000000019,
+   "lat": 51.407,
+   "lon": 0.7013,
+   "n10": 22,
+   "n10_pillbox": 11,
+   "per_km": 0.8799999999999933,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 39,
+   "start_km": 975.0,
+   "km": 24.999999999999947,
+   "lat": 51.4409,
+   "lon": 0.6822,
+   "n10": 112,
+   "n10_pillbox": 72,
+   "per_km": 4.480000000000009,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 40,
+   "start_km": 1000.0,
+   "km": 25.000000000000092,
+   "lat": 51.4658,
+   "lon": 0.4585,
+   "n10": 39,
+   "n10_pillbox": 23,
+   "per_km": 1.5599999999999943,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 41,
+   "start_km": 1025.0,
+   "km": 25.00000000000008,
+   "lat": 51.5189,
+   "lon": 0.6042,
+   "n10": 45,
+   "n10_pillbox": 30,
+   "per_km": 1.799999999999994,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 42,
+   "start_km": 1050.0,
+   "km": 25.000000000000014,
+   "lat": 51.5877,
+   "lon": 0.9233,
+   "n10": 14,
+   "n10_pillbox": 9,
+   "per_km": 0.5599999999999997,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 43,
+   "start_km": 1075.0,
+   "km": 25.000000000000433,
+   "lat": 51.7329,
+   "lon": 0.8954,
+   "n10": 42,
+   "n10_pillbox": 36,
+   "per_km": 1.6799999999999708,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 44,
+   "start_km": 1100.0,
+   "km": 24.999999999999996,
+   "lat": 51.736,
+   "lon": 0.8153,
+   "n10": 6,
+   "n10_pillbox": 2,
+   "per_km": 0.24000000000000005,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 45,
+   "start_km": 1125.0,
+   "km": 24.99999999999963,
+   "lat": 51.7948,
+   "lon": 1.0274,
+   "n10": 35,
+   "n10_pillbox": 28,
+   "per_km": 1.4000000000000208,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 46,
+   "start_km": 1150.0,
+   "km": 24.999999999999645,
+   "lat": 51.8817,
+   "lon": 1.2866,
+   "n10": 15,
+   "n10_pillbox": 10,
+   "per_km": 0.6000000000000085,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 47,
+   "start_km": 1175.0,
+   "km": 25.000000000000234,
+   "lat": 51.9427,
+   "lon": 1.1735,
+   "n10": 22,
+   "n10_pillbox": 5,
+   "per_km": 0.8799999999999918,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 48,
+   "start_km": 1200.0,
+   "km": 25.00000000000018,
+   "lat": 51.9817,
+   "lon": 1.2702,
+   "n10": 31,
+   "n10_pillbox": 13,
+   "per_km": 1.239999999999991,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 49,
+   "start_km": 1225.0,
+   "km": 24.99999999999963,
+   "lat": 51.947,
+   "lon": 1.3236,
+   "n10": 94,
+   "n10_pillbox": 46,
+   "per_km": 3.7600000000000557,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 50,
+   "start_km": 1250.0,
+   "km": 24.99999999999975,
+   "lat": 52.0766,
+   "lon": 1.5637,
+   "n10": 44,
+   "n10_pillbox": 16,
+   "per_km": 1.7600000000000176,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 51,
+   "start_km": 1275.0,
+   "km": 24.999999999999897,
+   "lat": 52.2859,
+   "lon": 1.6471,
+   "n10": 83,
+   "n10_pillbox": 36,
+   "per_km": 3.3200000000000136,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 52,
+   "start_km": 1300.0,
+   "km": 25.000000000000362,
+   "lat": 52.4936,
+   "lon": 1.7673,
+   "n10": 49,
+   "n10_pillbox": 31,
+   "per_km": 1.9599999999999715,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 53,
+   "start_km": 1325.0,
+   "km": 24.999999999999936,
+   "lat": 52.7116,
+   "lon": 1.7047,
+   "n10": 77,
+   "n10_pillbox": 44,
+   "per_km": 3.080000000000008,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 54,
+   "start_km": 1350.0,
+   "km": 25.00000000000003,
+   "lat": 52.8669,
+   "lon": 1.4489,
+   "n10": 115,
+   "n10_pillbox": 75,
+   "per_km": 4.599999999999995,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 55,
+   "start_km": 1375.0,
+   "km": 25.000000000000068,
+   "lat": 52.9533,
+   "lon": 1.111,
+   "n10": 207,
+   "n10_pillbox": 87,
+   "per_km": 8.279999999999978,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 56,
+   "start_km": 1400.0,
+   "km": 25.000000000000156,
+   "lat": 52.9698,
+   "lon": 0.8653,
+   "n10": 49,
+   "n10_pillbox": 26,
+   "per_km": 1.9599999999999878,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 57,
+   "start_km": 1425.0,
+   "km": 24.999999999999936,
+   "lat": 52.957,
+   "lon": 0.5262,
+   "n10": 51,
+   "n10_pillbox": 23,
+   "per_km": 2.0400000000000054,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 58,
+   "start_km": 1450.0,
+   "km": 25.000000000000277,
+   "lat": 52.7723,
+   "lon": 0.3723,
+   "n10": 31,
+   "n10_pillbox": 18,
+   "per_km": 1.2399999999999862,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 59,
+   "start_km": 1475.0,
+   "km": 25.000000000000185,
+   "lat": 52.8901,
+   "lon": 0.1025,
+   "n10": 48,
+   "n10_pillbox": 36,
+   "per_km": 1.9199999999999857,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 60,
+   "start_km": 1500.0,
+   "km": 24.99999999999975,
+   "lat": 53.0144,
+   "lon": 0.1723,
+   "n10": 58,
+   "n10_pillbox": 46,
+   "per_km": 2.320000000000023,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 61,
+   "start_km": 1525.0,
+   "km": 24.99999999999985,
+   "lat": 53.187,
+   "lon": 0.3562,
+   "n10": 38,
+   "n10_pillbox": 20,
+   "per_km": 1.5200000000000091,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 62,
+   "start_km": 1550.0,
+   "km": 25.000000000000245,
+   "lat": 53.3989,
+   "lon": 0.236,
+   "n10": 58,
+   "n10_pillbox": 24,
+   "per_km": 2.319999999999977,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 63,
+   "start_km": 1575.0,
+   "km": 25.00000000000007,
+   "lat": 53.545,
+   "lon": -0.0127,
+   "n10": 19,
+   "n10_pillbox": 11,
+   "per_km": 0.7599999999999978,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 64,
+   "start_km": 1600.0,
+   "km": 24.999999999999883,
+   "lat": 53.6971,
+   "lon": -0.2699,
+   "n10": 6,
+   "n10_pillbox": 3,
+   "per_km": 0.24000000000000113,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 65,
+   "start_km": 1625.0,
+   "km": 25.00000000000004,
+   "lat": 53.7097,
+   "lon": -0.6061,
+   "n10": 7,
+   "n10_pillbox": 1,
+   "per_km": 0.2799999999999996,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 66,
+   "start_km": 1650.0,
+   "km": 24.999999999999766,
+   "lat": 53.7124,
+   "lon": -0.5236,
+   "n10": 2,
+   "n10_pillbox": 1,
+   "per_km": 0.08000000000000075,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 67,
+   "start_km": 1675.0,
+   "km": 25.000000000000043,
+   "lat": 53.6899,
+   "lon": -0.1865,
+   "n10": 6,
+   "n10_pillbox": 3,
+   "per_km": 0.2399999999999996,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 68,
+   "start_km": 1700.0,
+   "km": 25.00000000000014,
+   "lat": 53.6164,
+   "lon": 0.1238,
+   "n10": 20,
+   "n10_pillbox": 8,
+   "per_km": 0.7999999999999956,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 69,
+   "start_km": 1725.0,
+   "km": 25.00000000000005,
+   "lat": 53.7054,
+   "lon": 0.0629,
+   "n10": 58,
+   "n10_pillbox": 32,
+   "per_km": 2.3199999999999954,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 70,
+   "start_km": 1750.0,
+   "km": 24.99999999999989,
+   "lat": 53.8935,
+   "lon": -0.1448,
+   "n10": 63,
+   "n10_pillbox": 30,
+   "per_km": 2.520000000000011,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 71,
+   "start_km": 1775.0,
+   "km": 24.99999999999995,
+   "lat": 54.0919,
+   "lon": -0.1378,
+   "n10": 39,
+   "n10_pillbox": 32,
+   "per_km": 1.5600000000000032,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 72,
+   "start_km": 1800.0,
+   "km": 25.000000000000092,
+   "lat": 54.2231,
+   "lon": -0.2949,
+   "n10": 97,
+   "n10_pillbox": 38,
+   "per_km": 3.8799999999999857,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 73,
+   "start_km": 1825.0,
+   "km": 24.999999999999844,
+   "lat": 54.3979,
+   "lon": -0.4785,
+   "n10": 18,
+   "n10_pillbox": 9,
+   "per_km": 0.7200000000000045,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 74,
+   "start_km": 1850.0,
+   "km": 24.999999999999943,
+   "lat": 54.5447,
+   "lon": -0.7445,
+   "n10": 107,
+   "n10_pillbox": 21,
+   "per_km": 4.28000000000001,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 75,
+   "start_km": 1875.0,
+   "km": 24.999999999999908,
+   "lat": 54.6243,
+   "lon": -1.1019,
+   "n10": 574,
+   "n10_pillbox": 111,
+   "per_km": 22.960000000000086,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 76,
+   "start_km": 1900.0,
+   "km": 24.999999999999638,
+   "lat": 54.7036,
+   "lon": -1.1811,
+   "n10": 68,
+   "n10_pillbox": 41,
+   "per_km": 2.7200000000000393,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 77,
+   "start_km": 1925.0,
+   "km": 25.000000000000238,
+   "lat": 54.894,
+   "lon": -1.3509,
+   "n10": 13,
+   "n10_pillbox": 10,
+   "per_km": 0.519999999999995,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 78,
+   "start_km": 1950.0,
+   "km": 25.0000000000003,
+   "lat": 55.0927,
+   "lon": -1.4842,
+   "n10": 90,
+   "n10_pillbox": 42,
+   "per_km": 3.599999999999957,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 79,
+   "start_km": 1975.0,
+   "km": 25.00000000000066,
+   "lat": 55.2981,
+   "lon": -1.5617,
+   "n10": 71,
+   "n10_pillbox": 34,
+   "per_km": 2.839999999999925,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 80,
+   "start_km": 2000.0,
+   "km": 25.00000000000003,
+   "lat": 55.5116,
+   "lon": -1.6079,
+   "n10": 23,
+   "n10_pillbox": 16,
+   "per_km": 0.9199999999999989,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 81,
+   "start_km": 2025.0,
+   "km": 24.999999999999698,
+   "lat": 55.6433,
+   "lon": -1.7732,
+   "n10": 29,
+   "n10_pillbox": 21,
+   "per_km": 1.160000000000014,
+   "landing": false,
+   "landing_share": 0.0
+  },
+  {
+   "seg": 82,
+   "start_km": 2050.0,
+   "km": 10.751295272676439,
+   "lat": 55.7389,
+   "lon": -1.9382,
+   "n10": 14,
+   "n10_pillbox": 5,
+   "per_km": 1.3021686824637666,
+   "landing": false,
+   "landing_share": 0.0
+  }
+ ],
+ "coast_seg_n": 83,
+ "coast_seg_km": 25.0,
+ "coast_seg_top": [
+  {
+   "seg": 75,
+   "start_km": 1875.0,
+   "km": 24.999999999999908,
+   "lat": 54.6243,
+   "lon": -1.1019,
+   "n10": 574,
+   "n10_pillbox": 111,
+   "per_km": 22.960000000000086,
+   "landing": false,
+   "landing_share": 0.0,
+   "rank": 1
+  },
+  {
+   "seg": 34,
+   "start_km": 850.0,
+   "km": 25.00000000000008,
+   "lat": 51.1034,
+   "lon": 1.2362,
+   "n10": 468,
+   "n10_pillbox": 283,
+   "per_km": 18.71999999999994,
+   "landing": false,
+   "landing_share": 0.307,
+   "rank": 2
+  },
+  {
+   "seg": 35,
+   "start_km": 875.0,
+   "km": 25.000000000000135,
+   "lat": 51.263,
+   "lon": 1.4033,
+   "n10": 214,
+   "n10_pillbox": 132,
+   "per_km": 8.559999999999954,
+   "landing": false,
+   "landing_share": 0.0,
+   "rank": 3
+  },
+  {
+   "seg": 55,
+   "start_km": 1375.0,
+   "km": 25.000000000000068,
+   "lat": 52.9533,
+   "lon": 1.111,
+   "n10": 207,
+   "n10_pillbox": 87,
+   "per_km": 8.279999999999978,
+   "landing": false,
+   "landing_share": 0.0,
+   "rank": 4
+  },
+  {
+   "seg": 15,
+   "start_km": 375.0,
+   "km": 25.000000000000043,
+   "lat": 50.7089,
+   "lon": -3.0353,
+   "n10": 154,
+   "n10_pillbox": 75,
+   "per_km": 6.1599999999999895,
+   "landing": false,
+   "landing_share": 0.0,
+   "rank": 5
+  },
+  {
+   "seg": 36,
+   "start_km": 900.0,
+   "km": 25.000000000000036,
+   "lat": 51.387,
+   "lon": 1.3349,
+   "n10": 140,
+   "n10_pillbox": 92,
+   "per_km": 5.599999999999992,
+   "landing": false,
+   "landing_share": 0.0,
+   "rank": 6
+  },
+  {
+   "seg": 33,
+   "start_km": 825.0,
+   "km": 25.000000000000032,
+   "lat": 50.9817,
+   "lon": 0.9666,
+   "n10": 118,
+   "n10_pillbox": 83,
+   "per_km": 4.7199999999999935,
+   "landing": false,
+   "landing_share": 0.497,
+   "rank": 7
+  },
+  {
+   "seg": 30,
+   "start_km": 750.0,
+   "km": 24.999999999999915,
+   "lat": 50.7609,
+   "lon": 0.1393,
+   "n10": 115,
+   "n10_pillbox": 81,
+   "per_km": 4.600000000000016,
+   "landing": true,
+   "landing_share": 0.865,
+   "rank": 8
+  }
+ ],
+ "coast_seg_landing_ranks": [
+  8,
+  22,
+  35
+ ],
+ "coast_seg_touch_ranks": [
+  {
+   "rank": 2,
+   "share": 0.307,
+   "per_km": 18.71999999999994,
+   "lat": 51.1034,
+   "lon": 1.2362
+  },
+  {
+   "rank": 7,
+   "share": 0.497,
+   "per_km": 4.7199999999999935,
+   "lat": 50.9817,
+   "lon": 0.9666
+  },
+  {
+   "rank": 8,
+   "share": 0.865,
+   "per_km": 4.600000000000016,
+   "lat": 50.7609,
+   "lon": 0.1393
+  },
+  {
+   "rank": 15,
+   "share": 0.344,
+   "per_km": 3.640000000000004,
+   "lat": 50.8302,
+   "lon": -0.1923
+  },
+  {
+   "rank": 22,
+   "share": 0.688,
+   "per_km": 2.8399999999999976,
+   "lat": 50.8325,
+   "lon": 0.4306
+  },
+  {
+   "rank": 35,
+   "share": 0.57,
+   "per_km": 2.040000000000012,
+   "lat": 50.9202,
+   "lon": 0.7451
+  }
+ ],
+ "places_used": {
+  "Land's End": {
+   "lat": 50.0677,
+   "lon": -5.71522
+  },
+  "Berwick-upon-Tweed": {
+   "lat": 55.77121,
+   "lon": -2.00418
+  },
+  "Dover": {
+   "lat": 51.12814,
+   "lon": 1.30843
+  },
+  "Folkestone": {
+   "lat": 51.08172,
+   "lon": 1.18028
+  },
+  "New Romney": {
+   "lat": 50.9858,
+   "lon": 0.94015
+  },
+  "Rye": {
+   "lat": 50.95115,
+   "lon": 0.73364
+  },
+  "Hastings": {
+   "lat": 50.85633,
+   "lon": 0.58122
+  },
+  "Bexhill": {
+   "lat": 50.84161,
+   "lon": 0.47151
+  },
+  "Eastbourne": {
+   "lat": 50.76644,
+   "lon": 0.27813
+  },
+  "Beachy Head": {
+   "lat": 50.73635,
+   "lon": 0.25069
+  },
+  "Brighton": {
+   "lat": 50.82237,
+   "lon": -0.13768
+  },
+  "Hythe": {
+   "lat": 51.07142,
+   "lon": 1.08288
+  },
+  "Ramsgate": {
+   "lat": 51.33465,
+   "lon": 1.41804
+  }
+ },
+ "osm": {
+  "n_osm_pillboxes": 1869,
+  "within50": 1047,
+  "share50": 0.1291954590325765,
+  "share50_standing": 0.170735991568593,
+  "share50_gone": 0.024553571428571428,
+  "share50_not_known": 0.03936269915651359,
+  "within100": 1205,
+  "share100": 0.14869200394866733,
+  "share100_standing": 0.19304408923239066,
+  "share100_gone": 0.03794642857142857,
+  "share100_not_known": 0.05154639175257732,
+  "within250": 1579,
+  "share250": 0.19484205330700888,
+  "share250_standing": 0.24415949411558055,
+  "share250_gone": 0.07589285714285714,
+  "share250_not_known": 0.08153701968134958,
+  "osm_without_dob_250": 525,
+  "osm_without_dob_250_share": 0.2808988764044944
+ },
+ "osm_meta": {
+  "wd_items_uk": 1959,
+  "wd_era": {
+   "dates not recorded": 872,
+   "outside 1939 to 1945": 70,
+   "wartime": 1017
+  },
+  "airfields": 745,
+  "airfields_era": {
+   "wartime": 571,
+   "dates not recorded": 141,
+   "outside 1939 to 1945": 33
+  },
+  "airfields_raf": 655,
+  "radar": 95,
+  "radar_chain_home_table": 60,
+  "radar_wikidata": 35,
+  "chain_home_rows_no_coords": 7,
+  "ports": 11,
+  "dockyards": 10,
+  "forts": 310,
+  "forts_by_class": {
+   "artillery battery": 168,
+   "coastal battery": 2,
+   "Martello tower": 81,
+   "anti-aircraft battery": 49,
+   "artillery battery;bunker": 1,
+   "artillery battery;fort": 1,
+   "Martello tower;barracks": 1,
+   "artillery battery;military base": 5,
+   "artillery battery;military camp": 1,
+   "artillery battery;radar station": 1
+  },
+  "osm_pillboxes": 1869,
+  "osm_military_bunkers": 3451,
+  "osm_aerodromes_disused": 101,
+  "osm_aerodromes_military": 54,
+  "osm_historic_military": 1264
+ },
+ "layers": {
+  "airfields": 745,
+  "airfields_wartime": 571,
+  "airfields_nodate": 141,
+  "airfields_post": 33,
+  "radar": 95,
+  "radar_ch_table": 60,
+  "ports": 11,
+  "dockyards": 10,
+  "forts": 310,
+  "martello": 82,
+  "batteries": 228,
+  "airfields_within10_landing": 11,
+  "airfields_within10_rest": 78,
+  "airfields_per100km_landing": 13.515024416667746,
+  "airfields_per100km_rest": 3.940682826164422,
+  "dob_within2_airfield": 1927,
+  "dob_within2_airfield_share": 0.13117767188563648,
+  "pillbox_within2_airfield": 1151,
+  "pillbox_within2_airfield_share": 0.14202862783810463,
+  "air_ministry_pillboxes": 19,
+  "pickett_hamilton": 44
+ },
+ "grid_cells_occupied": 1277,
+ "grid_max": 290,
+ "grid_top": [
+  {
+   "n": 290,
+   "lat": 54.616,
+   "lon": -0.995
+  },
+  {
+   "n": 240,
+   "lat": 51.156,
+   "lon": 1.359
+  },
+  {
+   "n": 228,
+   "lat": 54.617,
+   "lon": -1.15
+  },
+  {
+   "n": 185,
+   "lat": 51.198,
+   "lon": -0.785
+  },
+  {
+   "n": 176,
+   "lat": 52.193,
+   "lon": -2.221
+  }
+ ]
+}

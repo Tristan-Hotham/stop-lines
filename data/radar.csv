@@ -1,0 +1,96 @@
+name,region,lat,lon,source,qid
+Bawdsey,Suffolk,51.99386,1.40883,"Wikipedia, Chain Home (table of sites, grid reference)",
+Branscombe,Devon,50.69056,-3.141,"Wikipedia, Chain Home (table of sites, grid reference)",
+Brenish,Western Isles,58.10458,-7.10999,"Wikipedia, Chain Home (table of sites, grid reference)",
+Bride,Isle of Man,54.41272,-4.36685,"Wikipedia, Chain Home (table of sites, grid reference)",
+Broadbay,Western Isles,58.22956,-6.20652,"Wikipedia, Chain Home (table of sites, grid reference)",
+Canewdon,Essex,51.61708,0.75027,"Wikipedia, Chain Home (table of sites, grid reference)",
+Castell Mawr,Ceredigion,52.30402,-4.15007,"Wikipedia, Chain Home (table of sites, grid reference)",
+RAF Clee Hill,Shropshire,52.39795,-2.60387,"Wikipedia, Chain Home (table of sites, grid reference)",
+Dalby,Isle of Man,54.17146,-4.73737,"Wikipedia, Chain Home (table of sites, grid reference)",
+Danby Beacon,North Yorkshire,54.47783,-0.87106,"Wikipedia, Chain Home (table of sites, grid reference)",
+Darsham,Suffolk,52.29195,1.5304,"Wikipedia, Chain Home (table of sites, grid reference)",
+Dengie,Essex,51.679,0.86987,"Wikipedia, Chain Home (table of sites, grid reference)",
+Douglas Wood,Angus,56.56278,-2.8376,"Wikipedia, Chain Home (table of sites, grid reference)",
+Dover (Swingate),Kent,51.13816,1.33721,"Wikipedia, Chain Home (table of sites, grid reference)",
+Drone Hill,Borders,55.8917,-2.24987,"Wikipedia, Chain Home (table of sites, grid reference)",
+Drytree,Cornwall,50.05313,-5.18153,"Wikipedia, Chain Home (table of sites, grid reference)",
+Dunkirk,Kent,51.2972,0.97714,"Wikipedia, Chain Home (table of sites, grid reference)",
+Folly,Pembrokeshire,51.8334,-5.10957,"Wikipedia, Chain Home (table of sites, grid reference)",
+Great Bromley,Essex,51.89774,1.05741,"Wikipedia, Chain Home (table of sites, grid reference)",
+Hawks Tor,Devon,50.44206,-4.04255,"Wikipedia, Chain Home (table of sites, grid reference)",
+Hayscastle Cross,Pembrokeshire,51.89051,-5.02339,"Wikipedia, Chain Home (table of sites, grid reference)",
+Hillhead,Aberdeenshire,57.64519,-2.09714,"Wikipedia, Chain Home (table of sites, grid reference)",
+Kilkenneth,Argyll and Bute,56.50241,-6.97365,"Wikipedia, Chain Home (table of sites, grid reference)",
+Loth,Sutherland,58.06322,-3.766,"Wikipedia, Chain Home (table of sites, grid reference)",
+Netherbutton,Orkney,58.92345,-2.93588,"Wikipedia, Chain Home (table of sites, grid reference)",
+Nefyn,Gwynedd,52.9077,-4.57336,"Wikipedia, Chain Home (table of sites, grid reference)",
+Newchurch,Kent,51.04608,0.93033,"Wikipedia, Chain Home (table of sites, grid reference)",
+North Cairn,Dumfries,54.98984,-5.17298,"Wikipedia, Chain Home (table of sites, grid reference)",
+Northam,Devon,51.04402,-4.20532,"Wikipedia, Chain Home (table of sites, grid reference)",
+Noss Hill:,Shetland Islands,59.92363,-1.35553,"Wikipedia, Chain Home (table of sites, grid reference)",
+Ottercops Moss,Northumberland,55.20108,-2.08874,"Wikipedia, Chain Home (table of sites, grid reference)",
+Pevensey,East Sussex,50.84231,0.33439,"Wikipedia, Chain Home (table of sites, grid reference)",
+Poling,West Sussex,50.83738,-0.51944,"Wikipedia, Chain Home (table of sites, grid reference)",
+Port Mor,Argyll and Bute,56.4752,-6.96326,"Wikipedia, Chain Home (table of sites, grid reference)",
+Rhuddlan,Denbighshire,53.2758,-3.48237,"Wikipedia, Chain Home (table of sites, grid reference)",
+Ringstead,Dorset,50.63491,-2.35274,"Wikipedia, Chain Home (table of sites, grid reference)",
+Rye,East Sussex,50.97501,0.80262,"Wikipedia, Chain Home (table of sites, grid reference)",
+"St. Lawrence, Isle of Wight",Isle of Wight,50.58179,-1.25207,"Wikipedia, Chain Home (table of sites, grid reference)",
+Saligo Bay,Argyll and Bute,55.81316,-6.45254,"Wikipedia, Chain Home (table of sites, grid reference)",
+Sango,Sutherland,58.56662,-4.7233,"Wikipedia, Chain Home (table of sites, grid reference)",
+Saxmundham,Suffolk,52.29361,1.53494,"Wikipedia, Chain Home (table of sites, grid reference)",
+Scarlett,Isle of Man,54.0648,-4.66796,"Wikipedia, Chain Home (table of sites, grid reference)",
+Schoolhill,Aberdeenshire,57.07456,-2.15238,"Wikipedia, Chain Home (table of sites, grid reference)",
+Sennen,Cornwall,50.06397,-5.66722,"Wikipedia, Chain Home (table of sites, grid reference)",
+Skaw,Shetland Islands,60.82857,-0.78183,"Wikipedia, Chain Home (table of sites, grid reference)",
+Southbourne,Dorset,50.72292,-1.78178,"Wikipedia, Chain Home (table of sites, grid reference)",
+Staxton Wold,North Yorkshire,54.18622,-0.43306,"Wikipedia, Chain Home (table of sites, grid reference)",
+Stenigot,Lincolnshire,53.32676,-0.11486,"Wikipedia, Chain Home (table of sites, grid reference)",
+Stoke Holy Cross,Norfolk,52.57658,1.33032,"Wikipedia, Chain Home (table of sites, grid reference)",
+Tannach,Caithness,58.40517,-3.16528,"Wikipedia, Chain Home (table of sites, grid reference)",
+Tower,Lancashire,53.81339,-3.05474,"Wikipedia, Chain Home (table of sites, grid reference)",
+Trelanvean,Cornwall,50.03215,-5.12568,"Wikipedia, Chain Home (table of sites, grid reference)",
+Trerew,Cornwall,50.38605,-5.07856,"Wikipedia, Chain Home (table of sites, grid reference)",
+Ventnor,Isle of Wight,50.60391,-1.19802,"Wikipedia, Chain Home (table of sites, grid reference)",
+Warren,Pembrokeshire,51.6383,-4.98562,"Wikipedia, Chain Home (table of sites, grid reference)",
+RAF West Beckham,Norfolk,52.90462,1.18099,"Wikipedia, Chain Home (table of sites, grid reference)",
+West Prawle,Devon,50.22426,-3.72354,"Wikipedia, Chain Home (table of sites, grid reference)",
+Whale Head,Orkney Islands,59.30088,-2.42482,"Wikipedia, Chain Home (table of sites, grid reference)",
+Worth Matravers,Dorset,50.59946,-2.04728,"Wikipedia, Chain Home (table of sites, grid reference)",
+Wylfa,Isle of Anglesey,53.41148,-4.4806,"Wikipedia, Chain Home (table of sites, grid reference)",
+"missile-tracking radar station on Hirta, St Kilda",,57.80494,-8.58015,Wikidata,Q106889680
+Cresswell radar station,,55.226,-1.528,Wikidata,Q108782309
+RAF Sneaton Snooks,,54.64445,-1.19729,Wikidata,Q114887133
+RAF Crosslaw,,55.90751,-2.20638,Wikidata,Q114887653
+RAF Fairlight,,50.87583,0.63957,Wikidata,Q114887933
+RAF Forness,,51.39336,1.42406,Wikidata,Q114888515
+RAF Hartland Point,,51.02157,-4.51512,Wikidata,Q114889785
+RAF Inverbervie,,56.85176,-2.26232,Wikidata,Q114890452
+RAF Skendleby,,53.2157,0.15211,Wikidata,Q114894908
+RAF St Annes,,53.76495,-2.99057,Wikidata,Q114901513
+RAF St Margarets,,51.15604,1.38785,Wikidata,Q114901572
+RAF Trewan Sands,,53.24901,-4.51647,Wikidata,Q114956997
+RAF West Myne,,51.22649,-3.53659,Wikidata,Q114957301
+RAF Faraid Head,,58.6022,-4.776,Wikidata,Q116980586
+Margam Chain Home Low Radar Station,,51.56965,-3.74247,Wikidata,Q122220222
+"Radar Station, Old Castle Head",,51.6359,-4.78517,Wikidata,Q122221394
+"Chain Home Low Radar Station, Strumble Head",,52.01364,-5.08068,Wikidata,Q122221591
+Oxwich Bay Coast Defence / Chain Home Low Radar Station,,51.54361,-4.15182,Wikidata,Q122221618
+Craster radar station,,55.476,-1.598,Wikidata,Q123892283
+RAF Langtoft,,52.70146,-0.29214,Wikidata,Q124808913
+Cregneash Chain Home Low Radar Station,,54.07306,-4.76806,Wikidata,Q126870854
+M72 East Cliff Coastal Defence/Chain Home Low Radar Station,,50.54673,-2.42013,Wikidata,Q130680861
+Chain Home Extra Low (CHEL) Radar Station at Barrow Common,,52.9581,0.66345,Wikidata,Q141157929
+RAF Durrington,,50.8253,-0.414,Wikidata,Q16931395
+Hope Cove Radar Station,,50.22483,-3.79843,Wikidata,Q26677346
+RAF Aird Uig,,58.23797,-7.03275,Wikidata,Q39057590
+anti-aircraft battery (WW2) and radar 220m WSW of Quoy,,58.7923,-3.17611,Wikidata,Q56668408
+RAF Bempton,,54.1499,-0.1778,Wikidata,Q7275168
+RAF Buchan,,57.459,-1.811,Wikidata,Q7275205
+RAF Chenies,,51.6897,-0.53066,Wikidata,Q7275233
+RAF Goldsborough,,54.5133,-0.7203,Wikidata,Q7275339
+RAF Holmpton,,53.6839,-0.0673,Wikidata,Q7275383
+RAF Kilchiaran,,55.76601,-6.45527,Wikidata,Q7275415
+RAF Saxa Vord,,60.8275,-0.84111,Wikidata,Q7275553
+RAF Trimingham,,52.893,1.40056,Wikidata,Q7275640

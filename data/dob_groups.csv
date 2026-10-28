@@ -1,0 +1,874 @@
+group_id,name,kind,members
+1,Western Command Stop Line No 6,stop line,50
+2,Southern Command: Taunton Stop Line,stop line,302
+3,Southern Command: Dorchester - Poole Harbour Stop Line,stop line,7
+4,RAF Turnhouse defences,airfield defences,5
+5,City of Edinburgh defences (Black Line),other,20
+6,Moray coast defences,coast defences,12
+7,Blandford anti-tank island,anti-tank island,26
+8,Scapa Flow fixed defences,other,6
+9,GHQ Line: Green,stop line,316
+10,RAF Burnaston defences,airfield defences,11
+18,GHQ Line: Blue,stop line,270
+19,Western Command Stop Line No 5,stop line,82
+22,RAF Wroughton defences,airfield defences,12
+23,RAF Cranage defences,airfield defences,4
+24,RAF Woodford defences,airfield defences,12
+26,RAF Kemble defences,airfield defences,10
+27,RAF Yatesbury defences,airfield defences,5
+29,City of Chester defences,other,9
+30,RAF Woodley defences,airfield defences,3
+31,Eastern Command: Waterbeach - Huntingdon Stop Line,stop line,5
+32,London Stop Line: Outer,stop line,387
+34,GHQ Line (Essex),stop line,299
+36,Chelmsford nodal point,nodal point,21
+39,RAF Biggin Hill defences,airfield defences,6
+40,RAF Newton defences,airfield defences,10
+41,RAF Debden defences,airfield defences,16
+42,RAF Manston defences,airfield defences,1
+43,Eastern Command: Witham to Bradley Stop Line,stop line,29
+44,Eastern Command: Corps and Command Stop Lines,stop line,315
+45,Colchester nodal point,nodal point,15
+47,Essex coast defences,coast defences,102
+48,RAF North Weald defences,airfield defences,13
+49,RAF Stapleford Tawney defences,airfield defences,10
+50,Southern Command: Ringwood Stop Line,stop line,13
+51,RAF Fairlop defences,airfield defences,2
+52,RAF Bradwell Bay defences,airfield defences,1
+53,RAF North Luffenham defences,airfield defences,4
+54,RAF Cottesmore defences,airfield defences,2
+55,RAF Market Harborough defences,airfield defences,1
+56,RAF Bottesford defences,airfield defences,2
+57,RAF Hamble defences,airfield defences,3
+58,GHQ Line (East Sussex),stop line,122
+59,GHQ Line (East Sussex / Kent),stop line,172
+60,South East Command: Corps (Rother) Stop Line,stop line,39
+62,RAF Tollerton defences,airfield defences,20
+64,RAF Syerston defences,airfield defences,1
+65,Lewes nodal point,nodal point,7
+66,London Stop Line: Central,stop line,108
+68,London Stop Line: Inner,stop line,26
+69,Sussex coast defences (Cuckmere Haven),coast defences,39
+70,Norfolk coast defences,coast defences,411
+71,GHQ Line (Berkshire/Hampshire/Surrey/Kent),stop line,850
+72,Kent coast defences,coast defences,597
+73,GHQ Line (North West Kent),stop line,226
+74,RAF Penshurst defences,airfield defences,4
+75,Isle of Sheppey defences,other,16
+76,South East Command: Stop Line (East Kent),stop line,140
+77,South East Command: Stop Line (Romney Marsh),stop line,103
+78,RAF Hawkinge defences,airfield defences,17
+79,Eastern Command: II Corps Demolition Belt FII,other,24
+80,Eastern Command: II Corps Demolition Belt FI,other,34
+81,"Eastern Command: II Corps Demolition Belt, FIII",other,9
+82,Devon coast defences,coast defences,118
+83,Cornwall coast defences,coast defences,280
+84,Aylsham nodal point,nodal point,9
+85,Eastern Command: II Corps Line A,stop line,24
+86,Eastern Command: II Corps Line B,stop line,35
+87,Norwich nodal point,nodal point,26
+88,Thetford nodal point,nodal point,20
+89,Eastern Command: River Little Ouse demolition belt,other,7
+93,Eastern Command: River Orwell - River Gt. Ouse Stop Line,stop line,65
+96,East Dereham nodal point,nodal point,8
+97,Diss nodal point,nodal point,12
+98,Acle nodal point,nodal point,48
+100,Wymondham nodal point,nodal point,4
+101,Coltishall nodal point,nodal point,4
+102,Saxthorpe nodal point,nodal point,2
+103,Burnham Market nodal point,nodal point,5
+104,North Walsham nodal point,nodal point,8
+106,Sussex coast defences,coast defences,218
+107,Great Yarmouth nodal point,nodal point,20
+109,RAF Horsham St. Faith defences,airfield defences,6
+110,RAF Coltishall defences,airfield defences,8
+111,RAF Oulton defences,airfield defences,3
+112,Dorset coast defences,coast defences,278
+113,RAF Bircham Newton defences,airfield defences,2
+114,RAF Swanton Morley defences,airfield defences,11
+115,RAF Matlaske defences,airfield defences,5
+116,RAF Langham defences,airfield defences,3
+117,RAF Attlebridge defences,airfield defences,1
+118,Southern Command: Bodmin Stop Line,stop line,13
+119,Stoke Holy Cross Radar Station,other,4
+120,RAF Ludham defences,airfield defences,2
+121,RAF Methwold defences,airfield defences,4
+122,RAF Feltwell defences,airfield defences,6
+123,Cumbria coast defences,coast defences,58
+124,Somerset coast defences,coast defences,106
+125,RAF Marham defences,airfield defences,5
+126,Cockley Cley Hall defences,other,4
+127,RAF Bodney defences,airfield defences,8
+129,Watton nodal point,nodal point,4
+130,King's Lynn nodal point,nodal point,8
+134,Thursford (Norfolk) defences,other,4
+135,Hampshire coast defences,coast defences,73
+136,RAF Watton defences,airfield defences,4
+137,South East Command: Corps Stop Line (Guildford to Uckfield),stop line,66
+138,Swaffham nodal point,nodal point,7
+139,Southampton anti-tank island,anti-tank island,16
+140,RAF East Wretham defences,airfield defences,6
+141,RAF Thorpe Abbotts defences,airfield defences,1
+142,Attleborough nodal point,nodal point,4
+144,Egmere defended locality,other,7
+146,RAF Polebrook defences,airfield defences,5
+147,GHQ Line: Red,stop line,174
+148,GHQ Line: Red (Sulham Valley sector),stop line,44
+149,RAF Grafton Underwood defences,airfield defences,4
+150,RAF King's Cliffe defences,airfield defences,8
+151,RAF Croughton defences,airfield defences,3
+152,RAF Sywell defences,airfield defences,15
+153,RAF Hinton-in-the-Hedges defences,airfield defences,9
+154,Western Command Stop Line No 4,stop line,1
+155,RAF Halfpenny Green defences,airfield defences,3
+156,Southern Command: Oxford and Grand Union Canals Stop Line,stop line,12
+157,Northampton anti-tank island/nodal point,nodal point,35
+159,Isle of Portland defences,other,79
+161,Western Command Stop Line No 10,stop line,1
+162,RAF Thornaby defences,airfield defences,1
+164,North East coast defences,coast defences,442
+165,Western Command Stop Line No 28,stop line,56
+166,Western Command Stop Line No 8,stop line,34
+167,RAF Chetwynd defences,airfield defences,5
+168,Western Command Stop Line No 1,stop line,96
+169,RAF Atcham defences,airfield defences,9
+170,RAF Tern Hill,airfield defences,1
+171,RAF Shawbury defences,airfield defences,8
+172,RAF Rednal defences,airfield defences,5
+174,RAF High Ercall defences,airfield defences,8
+175,RAF Montford Bridge defences,airfield defences,6
+176,RAF Tilstock defences,airfield defences,1
+177,RAF Cosford defences,airfield defences,1
+178,Ludlow nodal point,nodal point,1
+179,Ellesmere nodal point,nodal point,16
+180,Shrewsbury anti-tank island,anti-tank island,7
+181,RAF Elmdon defences,airfield defences,2
+182,HMS Osprey defences,other,3
+183,GHQ Line (Cambridgeshire and Peterborough),stop line,226
+184,Northern Command: Coquet Stop Line,stop line,15
+186,Northumberland coast defences,coast defences,163
+187,Western Command Stop Line No 7,stop line,4
+188,RAF Lichfield defences,airfield defences,8
+189,RAF Fauld defences,airfield defences,1
+190,Rudyard Lake defences,other,3
+191,Bawdsey radar station defences,other,28
+192,Suffolk coast defences,coast defences,191
+193,RAF Wellesbourne Mountford defences,airfield defences,1
+194,RAF Church Lawford defences,airfield defences,3
+195,RAF Bramcote defences,airfield defences,20
+196,Ipswich nodal point,nodal point,19
+198,North Yorkshire coast defences,coast defences,138
+199,East Riding of Yorkshire coast defences,coast defences,163
+200,RAF Leconfield defences,airfield defences,4
+201,RAF Hutton Cranswick defences,airfield defences,2
+202,RAF Driffield (Eastburn) defences,airfield defences,2
+203,Northern Command: River Hull demolition belt,other,2
+204,RAF Catfoss defences,airfield defences,8
+205,RAF Dishford defences,airfield defences,3
+206,Scottish Command: River Dee Stop Line,stop line,5
+207,Aberdeen defences,other,10
+209,Scottish Command: River Cowie Stop Line,stop line,17
+210,Aberdeenshire coast defences,coast defences,47
+213,Ludford Bridge nodal point,nodal point,1
+214,Angus coast defences,coast defences,38
+215,Argyll and Bute coast defences,coast defences,14
+216,Newmarket defences,other,3
+217,RAF Port Ellen defences,airfield defences,5
+218,East Lothian coast defences,coast defences,53
+220,RAF Drem defences,airfield defences,6
+221,RAF Macmerry defences,airfield defences,2
+222,City of Edinburgh defences (Blue Line),other,3
+223,Firth of Forth fixed defences,other,18
+224,RAF Ipswich defences,airfield defences,5
+225,Fife coast defences,coast defences,64
+226,Scottish Command: Command Stop Line,stop line,46
+228,RAF Crail defences,airfield defences,12
+229,Shetland fixed defences,other,9
+230,Shetland defences: Line S - T,other,3
+231,Shetland defences: Lerwick,other,18
+232,Highland coast defences,coast defences,49
+234,Southern Command: Dorchester Stop Line,stop line,31
+235,RAF Perth defences,airfield defences,3
+236,RAF Findo Gask defences,airfield defences,1
+237,RAF Bodorgan defences,airfield defences,6
+238,Holyhead defences,other,14
+240,RAF Aberporth defences,airfield defences,6
+241,Western Command Stop Line No 24,stop line,3
+242,Ceredigion coast defences,coast defences,8
+243,Western Command: Carmarthen Stop Line,stop line,79
+244,RAF Pembrey defences,airfield defences,3
+245,Carmarthenshire coast defences,coast defences,35
+246,Western Command: Clwydian Range Stop Line,stop line,5
+247,RAF Sealand defences,airfield defences,2
+248,RAF Hawarden defences,airfield defences,4
+249,Western Command Stop Line No 23,stop line,9
+250,Gwynedd coast defences,coast defences,19
+251,Western Command Stop Line No 21,stop line,3
+253,Western Command Stop Line No 26,stop line,14
+254,Monmouthshire coast defences,coast defences,6
+255,Western Command Stop Line No 27,stop line,34
+256,Pembrokeshire coast defences,coast defences,140
+257,Western Command: Swansea Valley Stop Line,stop line,1
+258,Western Command: Caersws to Builth,other,7
+259,Western Command: Gower Stop Line,stop line,1
+260,Western Command Stop Line No 25,stop line,2
+261,Prickwillow nodal point,nodal point,1
+262,RAF Snailwell defences,airfield defences,6
+263,Cambridge nodal point,nodal point,23
+264,RAF Cambridge defences,airfield defences,1
+265,Eastern Command: Newmarket to Whittlesey Stop Line,stop line,5
+266,RAF Waterbeach defences,airfield defences,3
+267,RAF Oakington defences,airfield defences,15
+268,RAF Bassingbourn defences,airfield defences,3
+269,RAF Castle Camps defences,airfield defences,2
+270,RAF Caxton Gibbet defences,airfield defences,1
+271,RAF Duxford defences,airfield defences,6
+272,RAF Little Staughton defences,airfield defences,1
+273,RAF Peterborough defences,airfield defences,4
+274,RAF Sibson defences,airfield defences,1
+276,RAF Warboys defences,airfield defences,3
+277,RAF Wittering defences,airfield defences,3
+278,RAF Wyton defences,airfield defences,2
+279,Glamorgan coast defences,coast defences,16
+280,Plymouth anti-tank island,anti-tank island,10
+281,RAF Radlett defences,airfield defences,4
+282,RAF Leavesden defences,airfield defences,2
+283,RAF Hunsdon defences,airfield defences,16
+284,RAF Exeter defences,airfield defences,31
+285,Swansea coast defences,coast defences,8
+286,RAF Barrow (Walney Island) defences,airfield defences,5
+287,RAF Cark defences,airfield defences,7
+288,Western Command Stop Line No 20,stop line,2
+290,Western Command Stop Line No 18,stop line,10
+292,RAF Croydon defences,airfield defences,2
+293,RAF Croft defences,airfield defences,1
+294,RAF West Hartlepool (Greatham) defences,airfield defences,10
+295,RAF Redhill defences,airfield defences,4
+296,Leeds defences,other,1
+297,Southern Command: Stop Line (Hook - Salisbury/Totton),stop line,42
+298,RAF Rochford defences,airfield defences,10
+299,RAF West Raynham defences,airfield defences,12
+300,RAF Sutton Bridge defences,airfield defences,5
+301,Lincolnshire coast defences,coast defences,195
+302,Northern Command: Witham Stop Line,stop line,30
+303,Northern Command: Steeping River Stop Line,stop line,3
+304,RAF Samlesbury  defences,airfield defences,2
+305,RAF Windrush defences,airfield defences,3
+306,Portsmouth anti-tank island,anti-tank island,75
+307,RAF Portsmouth,airfield defences,3
+308,Western Command Stop Line No 13,stop line,2
+309,Western Command Stop Line No 16,stop line,8
+310,Western Command Stop Line No 11,stop line,4
+311,Western Command Stop Line No 14,stop line,23
+312,Isle of Wight coastal defences,coast defences,65
+313,Northern Command: 59 Div. Reserve Stop Line,stop line,13
+315,Western Command Stop Line No 17,stop line,1
+316,Northern Command: South Forty Foot Drain and River Glen Stop Line,stop line,2
+317,RAF North Coates defences,airfield defences,3
+318,RAF Wickenby defences,airfield defences,1
+319,Liverpool defences,other,12
+320,RAF Speke defences,airfield defences,5
+321,Northern Command: Louth Navigation Canal Stop Line,stop line,1
+322,Norton Fitzwarren vulnerable defile,other,1
+323,Western Command Stop Line No 2,stop line,55
+324,RAF Barkston Heath defences,airfield defences,2
+325,RAF Binbrook defences,airfield defences,2
+326,RAF Coleby Grange,airfield defences,2
+327,RAF Digby defences,airfield defences,1
+328,RAF Goxhill defences,airfield defences,3
+329,RAF Hibaldstow defences,airfield defences,1
+330,RAF Spittlegate defences,airfield defences,6
+331,RAF Swinderby defences,airfield defences,1
+332,RAF Wellingore defences,airfield defences,14
+333,RAF Woodhall Spa defences,airfield defences,1
+334,Royal Ordnance Factory Yeading defences,other,1
+335,Royal Ordnance Factory Dawley defences,other,8
+336,Dover nodal point,nodal point,183
+337,RAF Wartling defences,airfield defences,5
+338,RAF Northolt defences,airfield defences,4
+339,Orkney Islands defences,other,40
+341,RAF Chipping Warden defences,airfield defences,2
+343,Northern Command: River Wansbeck Stop Line,stop line,27
+344,Ashford nodal point,nodal point,9
+345,Northern Command: Wooler to Alnwick Stop Line,stop line,27
+346,Western Command: Neath Valley Stop Line,stop line,6
+347,Cirencester anti-tank island,anti-tank island,5
+348,Berwick-upon-Tweed defences,other,13
+349,Scottish Command: Oykel Bridge - Dornoch Firth Stop Line,stop line,1
+350,RAF Acklington defences,airfield defences,2
+352,Northern Command: Wooler to Belford Stop Line,stop line,18
+353,RAF Hucknall defences,airfield defences,3
+354,RAF Martlesham Heath defences,airfield defences,5
+355,RAF Hooton Park defences,airfield defences,5
+356,RAF Bratton defences,airfield defences,1
+357,Stenigot Radar Station defences,other,2
+358,Boniface Down Radar Station defences,other,2
+359,RAF Culmhead defences,airfield defences,12
+360,RAF Selsey defences,airfield defences,6
+361,High Street Chain Home Station,other,4
+362,RAF Montrose defences,airfield defences,11
+363,RAF Shoreham defences,airfield defences,14
+364,Drone Hill Radar Station,other,7
+365,RAF Ouston defences,airfield defences,13
+366,Central Vehicle Depot defences,other,2
+367,Witney anti-tank island,anti-tank island,5
+368,Scilly Isles defences,other,27
+369,RAF Thorney Island defences,airfield defences,5
+370,Chichester anti-tank island,anti-tank island,5
+371,RAF Westhampnett defences,airfield defences,3
+372,Western Command Stop Line No 22,stop line,2
+373,Western Command: River Severn Stop Line,stop line,8
+374,RAF Hucclecote (Brockworth) defences,airfield defences,2
+375,RAF Staverton defences,airfield defences,9
+376,RAF Kenley defences,airfield defences,4
+377,Flintshire coast defences,coast defences,3
+378,RAF South Cerney defences,airfield defences,1
+379,Folkestone nodal point,nodal point,75
+380,RAF Middle Wallop defences,airfield defences,7
+381,RAF Odiham defences,airfield defences,2
+382,RAF St. Athan defences,airfield defences,8
+383,RNAS Yeovilton defences,other,7
+384,RAF Weston-super-Mare defences,airfield defences,25
+385,RAF Alton Barnes defences,airfield defences,9
+386,RAF Barton-le-Clay defences,airfield defences,5
+387,RAF Beccles defences,airfield defences,1
+388,RAF Bicester defences,airfield defences,8
+389,RAF Booker defences,airfield defences,4
+390,RAF Boulmer defences,airfield defences,1
+391,RAF Brooklands defences,airfield defences,1
+392,RAF Cardington defences,airfield defences,5
+393,RAF Castle Donington defences,airfield defences,1
+394,RAF Cranfield defences,airfield defences,7
+395,RAF Detling defences,airfield defences,4
+396,RAF Docking defences,airfield defences,3
+397,RAF Dunkeswell defences,airfield defences,1
+398,RAF St. Eval defences,airfield defences,2
+399,RAF Foulsham defences,airfield defences,1
+400,RAF Great Ashfield defences,airfield defences,2
+402,RAF Grove defences,airfield defences,1
+403,RAF Henley-on-Thames defences,airfield defences,1
+404,RAF Henlow defences,airfield defences,1
+405,RAF High Post defences,airfield defences,1
+406,RAF Honington defences,airfield defences,3
+407,RAF Ibsley defences,airfield defences,2
+408,RAF Lakenheath defences,airfield defences,1
+409,RAF Little Rissington defences,airfield defences,1
+410,RAF Long Marston defences,airfield defences,6
+411,RAF Luton defences,airfield defences,3
+412,RAF Merston defences,airfield defences,1
+413,RAF Netherthorpe defences,airfield defences,3
+414,RAF North Creake defences,airfield defences,5
+415,RAF Ossington defences,airfield defences,1
+416,RAF Ratcliffe defences,airfield defences,2
+417,Arundel nodal point,nodal point,9
+418,RAF Sawbridgeworth defences,airfield defences,12
+419,South East Command: Stop Line (West Sussex),stop line,37
+420,RAF Silloth defences,airfield defences,11
+421,RAF Stoke Orchard defences,airfield defences,2
+422,RAF Twinwood Farm defences,airfield defences,1
+423,Southern Command: River Wylye Stop Line,stop line,8
+425,City of Birmingham defences,other,2
+426,RAF Peterhead defences,airfield defences,6
+427,RAF Charmy Down defences,airfield defences,1
+428,RAF Fraserburgh defences,airfield defences,2
+429,RAF Harringworth defences,airfield defences,1
+430,RAF Calveley defences,airfield defences,3
+431,RAF Hampstead Norreys defences,airfield defences,7
+432,RAF Cleave defences,airfield defences,3
+433,GHQ Line (East Sussex/Kent - East Branch),stop line,8
+434,Gloucestershire coast defences,coast defences,9
+436,Southern Command: River Stour Stop Line,stop line,4
+437,Christchurch anti-tank island,anti-tank island,4
+438,Brentwood nodal point,nodal point,4
+439,Wareham anti-tank island,anti-tank island,2
+441,Semington centre of resistance,other,25
+443,Devizes nodal point,nodal point,24
+444,Pewsey Wharf Bridgehead,other,10
+445,Burbage Wharf bridgehead,other,3
+446,Dorchester anti-tank island,anti-tank island,1
+447,Poole anti-tank island,anti-tank island,3
+448,Romsey anti-tank island,anti-tank island,1
+449,Wimborne anti-tank island,anti-tank island,3
+450,Maiden Newton anti-tank island,anti-tank island,20
+451,Beaulieu anti-tank island,anti-tank island,6
+452,Bishop's Waltham anti-tank island,anti-tank island,1
+453,Botley anti-tank island,anti-tank island,7
+454,Hungerford nodal point,nodal point,13
+455,Eastleigh anti-tank island,anti-tank island,2
+456,Fordingbridge anti-tank island,anti-tank island,26
+457,River Hamble Bridge anti-tank island,anti-tank island,1
+458,Hayling Island Bridge anti-tank island,anti-tank island,17
+459,Horndean anti-tank island,anti-tank island,1
+460,Newbury nodal point,nodal point,15
+461,Lyndhurst anti-tank island,anti-tank island,1
+462,Meon Crossroads anti-tank island,anti-tank island,1
+463,Midhurst anti-tank island,anti-tank island,1
+464,Petersfield anti-tank island,anti-tank island,1
+465,Ringwood anti-tank island,anti-tank island,1
+466,Singleton anti-tank island,anti-tank island,1
+467,Woolhampton bridgehead,other,11
+468,Totton Bridge anti-tank island,anti-tank island,1
+469,Wickham anti-tank island,anti-tank island,1
+470,Bury St. Edmunds nodal point,nodal point,12
+471,Frinton nodal point,nodal point,2
+472,Northern Command: New River Ancholme demolition belt,other,1
+473,Romford nodal point,nodal point,1
+474,Southend nodal point,nodal point,7
+475,Cromer nodal point,nodal point,18
+476,Fakenham nodal point,nodal point,1
+477,Witham nodal point,nodal point,4
+478,Framlingham nodal point,nodal point,1
+479,Sudbury nodal point,nodal point,29
+480,Aldeburgh nodal point,nodal point,15
+481,Rayleigh nodal point,nodal point,1
+482,Beccles nodal point,nodal point,2
+483,Needham Market nodal point,nodal point,1
+484,Dunmow nodal point,nodal point,18
+485,Saxmundham nodal point,nodal point,1
+486,Lowestoft nodal point,nodal point,3
+487,Walton-on-the-Naze nodal point,nodal point,6
+488,Clacton nodal point,nodal point,2
+489,Pershore Bridge defences,other,27
+490,Harwich nodal point,nodal point,13
+492,Amberley Bridge nodal point,nodal point,3
+493,Fittleworth nodal point,nodal point,1
+494,Pulborough nodal point,nodal point,4
+495,Cowfold nodal point,nodal point,1
+496,"Steyning, Bramber, and Upper Beeding nodal point",nodal point,34
+497,Washington nodal point,nodal point,1
+498,Henfield nodal point,nodal point,7
+499,Southern Command: Droitwich to Watling Street Stop Line,stop line,6
+500,Petworth nodal point,nodal point,1
+501,Wisborough Green nodal point,nodal point,1
+502,West Grinstead nodal point,nodal point,1
+503,Billingshurst nodal point,nodal point,2
+504,RAF Pershore defences,airfield defences,2
+505,Bognor Regis nodal point,nodal point,13
+506,Littlehampton nodal point,nodal point,4
+507,Yapton nodal point,nodal point,1
+508,Angmering nodal point,nodal point,2
+509,Worthing nodal point,nodal point,5
+510,Shoreham nodal point,nodal point,3
+511,Southwick nodal point,nodal point,1
+512,Portslade nodal point,nodal point,1
+513,Wrantage anti-tank island,anti-tank island,4
+514,Ilton anti-tank island,anti-tank island,27
+515,Ilminster anti-tank island,anti-tank island,3
+516,Durston Station anti-tank island,anti-tank island,7
+517,Creech St. Michael anti-tank island,anti-tank island,6
+518,"Blue Anchor Bay - Defence Localities Nos. 2, 3, and 5",other,14
+519,Chard anti-tank island,anti-tank island,5
+520,Forton anti-tank island,anti-tank island,11
+521,Perry Street anti-tank island,anti-tank island,6
+522,Yeovil anti-tank island,anti-tank island,1
+523,Crewkerne anti-tank island,anti-tank island,1
+524,Taunton anti-tank island,anti-tank island,4
+525,Bridgwater anti-tank island,anti-tank island,13
+526,Frome defended locality,other,1
+527,Wells defended locality,other,9
+528,Glastonbury defended locality,other,2
+529,Street defended locality,other,1
+530,Shepton Mallet nodal point,nodal point,1
+531,Taunton vulnerable defile,other,1
+532,Yeovil vulnerable defile,other,1
+533,Bath vulnerable defile,other,1
+535,Wells vulnerable defile,other,1
+536,Clevedon centre of resistance,other,2
+537,Weston-super-Mare centre of resistance,other,1
+538,Burnham centre of resistance,other,11
+539,Watchet centre of resistance,other,4
+540,Minehead centre of resistance,other,12
+541,RAF Colerne defences,airfield defences,1
+542,RAF Weston-on-the-Green defences,airfield defences,2
+543,Worcester anti-tank island,anti-tank island,142
+544,Axminster anti-tank island,anti-tank island,28
+545,Whitford anti-tank island,anti-tank island,6
+546,Colyford anti-tank island,anti-tank island,7
+547,Sevenoaks nodal point,nodal point,1
+548,Edenbridge nodal point,nodal point,19
+549,Westerham nodal point,nodal point,1
+550,Tonbridge nodal point,nodal point,6
+551,Penshurst nodal point,nodal point,33
+552,Pembury nodal point,nodal point,5
+553,Tunbridge Wells nodal point,nodal point,1
+554,Wateringbury nodal point,nodal point,3
+555,Wrotham nodal point,nodal point,1
+556,Maidstone nodal point,nodal point,36
+557,Headcorn nodal point,nodal point,1
+558,Sittingbourne nodal point,nodal point,4
+559,Faversham nodal point,nodal point,2
+560,Ash nodal point,nodal point,8
+561,Appledore nodal point,nodal point,5
+562,Bridge nodal point,nodal point,2
+563,Burmarsh nodal point,nodal point,1
+564,Canterbury nodal point,nodal point,30
+565,Charing nodal point,nodal point,8
+566,Chatham Group nodal point,nodal point,17
+567,Eastry nodal point,nodal point,5
+568,Hamstreet nodal point,nodal point,4
+569,Lydd nodal point,nodal point,3
+570,Lydden nodal point,nodal point,8
+571,New Romney nodal point,nodal point,5
+572,St. Nicholas at Wade nodal point,nodal point,8
+573,Sarre nodal point,nodal point,30
+574,Sandwich nodal point,nodal point,13
+575,Sellindge nodal point,nodal point,1
+576,St. Mary in the Marsh nodal point,nodal point,2
+577,Sturry nodal point,nodal point,6
+578,Temple Ewell nodal point,nodal point,6
+579,Wingham nodal point,nodal point,6
+580,Crossroads nodal point,nodal point,4
+581,Biddenden nodal point,nodal point,1
+582,Goudhurst nodal point,nodal point,1
+583,Harrietsham nodal point,nodal point,1
+584,Hawkhurst nodal point,nodal point,2
+585,Lamberhurst nodal point,nodal point,1
+586,Tenterden nodal point,nodal point,1
+587,Woodchurch nodal point,nodal point,1
+588,Baldslow nodal point,nodal point,1
+589,Battle nodal point,nodal point,4
+590,Brede nodal point,nodal point,1
+591,Dorking Gap defences,other,18
+592,Limpsfield nodal point,nodal point,10
+593,Dorking nodal point,nodal point,9
+594,Guildford nodal point,nodal point,10
+595,Redhill nodal point,nodal point,3
+596,Reigate nodal point,nodal point,7
+597,Betchworth nodal point,nodal point,17
+598,Byfleet nodal point,nodal point,2
+599,Cranleigh nodal point,nodal point,2
+600,Egham nodal point,nodal point,1
+601,Godalming nodal point,nodal point,13
+602,Godstone nodal point,nodal point,1
+603,Haslemere nodal point,nodal point,5
+604,Horley Row nodal point,nodal point,25
+605,Leatherhead nodal point,nodal point,1
+606,Shere nodal point,nodal point,15
+607,Newchapel nodal point,nodal point,1
+608,Farnham nodal point,nodal point,43
+609,Burgess Hill nodal point,nodal point,2
+610,Cross in Hand nodal point,nodal point,1
+611,Ditchling nodal point,nodal point,1
+612,East Grinstead nodal point,nodal point,1
+613,Etchingham nodal point,nodal point,1
+614,Four Oaks nodal point,nodal point,1
+615,Friston nodal point,nodal point,1
+616,Gardner Street nodal point,nodal point,1
+617,Dunkirk Chain Home Station defences,other,5
+618,Hailsham nodal point,nodal point,2
+619,Hassocks nodal point,nodal point,1
+620,Heathfield nodal point,nodal point,1
+621,Horam nodal point,nodal point,1
+622,Hurstpierpoint nodal point,nodal point,1
+623,Mayfield nodal point,nodal point,3
+624,Ninfield nodal point,nodal point,1
+625,RAF Boscombe Down defences,airfield defences,2
+626,Peasmarsh nodal point,nodal point,3
+627,Pevensey nodal point,nodal point,17
+628,Polegate nodal point,nodal point,1
+629,Pyecombe nodal point,nodal point,1
+630,Robertsbridge nodal point,nodal point,2
+631,Rye nodal point,nodal point,13
+632,Sedlescombe nodal point,nodal point,1
+633,Staplecross nodal point,nodal point,1
+634,Uckfield nodal point,nodal point,7
+635,Wartling nodal point,nodal point,1
+636,Winchelsea nodal point,nodal point,7
+637,Balcombe nodal point,nodal point,1
+638,Cooper's Corner nodal point,nodal point,1
+639,Crowborough Cross nodal point,nodal point,1
+640,Cuckfield nodal point,nodal point,1
+641,Eridge Station nodal point,nodal point,11
+642,Forest Row nodal point,nodal point,1
+643,Handcross nodal point,nodal point,8
+644,Hartfield nodal point,nodal point,1
+645,Haywards Heath nodal point,nodal point,1
+646,Hurst Green nodal point,nodal point,1
+647,Jarvis Brook nodal point,nodal point,10
+648,Turners Hill nodal point,nodal point,2
+649,Salisbury anti-tank island,anti-tank island,6
+650,Findon nodal point,nodal point,1
+651,Partridge Green nodal point,nodal point,1
+652,Horsham nodal point,nodal point,8
+653,Crawley nodal point,nodal point,1
+654,RAF Tangmere defences,airfield defences,1
+655,Kidderminster anti-tank island,anti-tank island,39
+656,RAF Hornchurch defences,airfield defences,7
+658,Northern Ireland District Stop Line E: Carnlough to Lough Neagh,stop line,1
+660,RAF Newtownards defences,airfield defences,18
+661,Scarva centre of resistance,other,5
+662,Northern Ireland District Stop Line B: Lough Neagh to Carlingford Lough,stop line,8
+663,Rathfriland centre of resistance,other,3
+664,Aldershot Command: Farnborough / Aldershot stop line,stop line,60
+665,Northern Ireland District Stop Line G: Lough Neagh - Ardmillan,stop line,1
+666,Comber centre of resistance,other,1
+667,Northern Ireland District Stop Line A: Portstewart - Lough Neagh,stop line,3
+668,Rackham Hill defended locality,other,1
+669,Sullington Hill defended locality,other,1
+670,Chanctonbury Ring defended locality,other,1
+671,Northern Ireland District garrison town: Kilrea,other,2
+672,Steyning Round Hill defended locality,other,1
+673,Truleigh Hill defended locality,other,1
+674,Devil's Dyke defended locality,other,2
+675,Ditchling Beacon - Streathill Farm defended locality,other,1
+676,Mount Harry defended locality,other,1
+677,RNAS Eglinton defences,other,1
+678,South East Command: Division Stop Line,stop line,21
+679,Aldershot Command: Fleet / Farnham stop line,stop line,47
+680,RAF Lympne defences,airfield defences,6
+681,Kirkleatham Hall defended locality,other,55
+682,South East Command: Stop Line (Horsham to Dorking),stop line,2
+683,Marlborough anti-tank island,anti-tank island,3
+684,Basingstoke anti-tank island,anti-tank island,4
+685,Reading anti-tank island,anti-tank island,3
+686,Swindon anti-tank island,anti-tank island,4
+687,"Command Ammunition Depot (CAD), Bramley defences",other,9
+688,Winchester anti-tank island,anti-tank island,1
+690,Bransford centre of resistance,other,12
+691,Wrexham Royal Ordnance Factory defences,other,15
+692,Glascoed Royal Ordnance Factory defences,other,2
+693,RAF Carew Cheriton defences,airfield defences,13
+695,RAF Llandow defences,airfield defences,4
+696,RAF Llandwrog defences,airfield defences,2
+697,RAF Penrhos defences,airfield defences,4
+698,Scottish Borders coast defences,coast defences,4
+699,RAF Dumfries defences,airfield defences,3
+700,RAF Evanton defences,airfield defences,4
+701,RAF Forres defences,airfield defences,4
+702,School Hill Chain Home Radar Station defences,other,3
+703,RAF Wick defences,airfield defences,7
+705,Royal Ordnance Factory Pembrey defences,other,1
+706,RAF Leuchars defences,airfield defences,1
+707,RAF St. David's defences,airfield defences,1
+708,RAF / RNAS Dale defences,airfield defences,2
+709,RAF Kete defences,airfield defences,1
+710,RAF Talbenny defences,airfield defences,1
+711,RAF Angle defences,airfield defences,4
+712,RAF St. Mawgan defences,airfield defences,1
+713,North West coast defences,coast defences,41
+714,RAF Perranporth defences,airfield defences,4
+715,RAF Donibristle defences,airfield defences,1
+716,Lodge Hill Ammunition Depot defences,other,7
+717,Southern Command: River Yar Stop Line,stop line,8
+718,Bouldnor Battery defences,other,1
+719,Bembridge Fort defences,other,1
+720,Fort Warden defences,other,1
+721,Brickwall - Northiam fortress,other,2
+722,Cripp's Corner fortress,other,22
+723,Mountfield fortress,other,2
+724,Stone Cross - Friday Street fortress,other,1
+725,Alfriston fortress,other,1
+726,Newton Noyes Mine Depot defences,other,4
+728,RAF Templeton defences,airfield defences,1
+729,RAF Warren defences,airfield defences,8
+730,RAF Manorbier defences,airfield defences,10
+731,Southern Command: Gweek to Porthleven stop line,stop line,2
+732,RAF Predannack defences,airfield defences,3
+733,Southern Command: Chichester Canal stop line,stop line,11
+734,Fixed Defences Severn,other,2
+735,Sheringham nodal point,nodal point,10
+736,Holt nodal point,nodal point,1
+737,Heybridge and Maldon nodal point,nodal point,1
+738,Halesworth nodal point,nodal point,1
+739,Stowmarket nodal point,nodal point,1
+740,Braintree nodal point,nodal point,14
+741,Southwold nodal point,nodal point,10
+742,Felixstowe nodal point,nodal point,13
+743,Brandon nodal point,nodal point,6
+744,Docking nodal point,nodal point,4
+745,Manningtree nodal point,nodal point,1
+746,Bungay nodal point,nodal point,2
+747,Halstead nodal point,nodal point,2
+748,Shoeburyness Town nodal point,nodal point,1
+749,Eye nodal point,nodal point,2
+750,Derby City defences,other,2
+751,Yoxford nodal point,nodal point,2
+752,Hadleigh nodal point,nodal point,1
+753,Ludham nodal point,nodal point,14
+754,Harleston nodal point,nodal point,2
+755,Wroxham nodal point,nodal point,3
+756,Melton nodal point,nodal point,1
+757,Ixworth nodal point,nodal point,12
+758,Loddon nodal point,nodal point,5
+759,Eastern Command: Ipswich to Halesworth Stop Line,stop line,6
+760,RAF Bempton C.H.L. Radar Station defences,airfield defences,4
+761,South East Command: Stop Line (Burgess Hill to Ardingly),stop line,2
+762,South Benfleet nodal point,nodal point,1
+763,Weir Cross Roads nodal point,nodal point,1
+764,Rochford nodal point,nodal point,2
+765,Ashingdon nodal point,nodal point,2
+766,RAF Akeman Street defences,airfield defences,1
+767,RAF Kidlington defences,airfield defences,1
+768,Southern Command: Stop Line (Chichester to Midhurst),stop line,3
+769,Exeter anti-tank island,anti-tank island,1
+770,Honiton anti-tank island,anti-tank island,1
+771,Bampton anti-tank island,anti-tank island,1
+772,Okehampton anti-tank island,anti-tank island,1
+773,Bodmin anti-tank island,anti-tank island,1
+774,South East Command: River Adur Stop Line,stop line,12
+775,Southern Command: River Exe Stop Line,stop line,2
+776,Southern Command: Stop Line (Cornwall / Devon),stop line,3
+777,Southern Command: Stop Line (New Alresford to Thorney Island),stop line,1
+778,Southern Command: Stop Line (Bridport - Crewkerne),stop line,1
+779,RAF Chilbolton defences,airfield defences,1
+780,RAF Eastleigh defences,airfield defences,2
+781,RAF Gosport defences,airfield defences,7
+782,RAF Lydd defences,airfield defences,3
+783,Western Command Stop Line No 15,stop line,10
+784,Bristol anti-tank island,anti-tank island,6
+785,Faringdon anti-tank island,anti-tank island,2
+786,Aylesbury anti-tank island,anti-tank island,1
+787,Bicester anti-tank island,anti-tank island,4
+788,Buckingham anti-tank island,anti-tank island,1
+789,Banbury anti-tank island,anti-tank island,1
+790,Gloucester anti-tank island,anti-tank island,1
+791,Cheltenham anti-tank island,anti-tank island,1
+792,Henley-on-Thames anti-tank island,anti-tank island,1
+793,Scottish Command: River Don Stop Line,stop line,1
+794,RAF Little Snoring defences,airfield defences,1
+795,Scottish Command: Stop Line Peebles - Edinburgh,stop line,1
+796,RAF Langar defences,airfield defences,2
+797,Dumfries and Galloway coast defences,coast defences,3
+798,RAF Acaster Malbis defences,airfield defences,5
+799,RAF Squires Gate defences,airfield defences,4
+800,Lancashire coast defences,coast defences,28
+801,RAF Kirkbride defences,airfield defences,1
+802,Carlisle defences,other,5
+803,South East Command: Stop Line (Oare to Warehorne),stop line,44
+805,Worthy Down Depot defences,other,27
+806,HMS Forward defences,other,5
+807,Northern Command: Stop Line (Napton-on-the-Hill to Nuneaton),stop line,2
+808,RAF Hatfield defences,airfield defences,1
+809,RAF Burtonwood defences,airfield defences,1
+810,Ayrshire coast defences,coast defences,2
+811,"Royal Ordnance Depot, Weedon.",other,3
+812,RAF Snetterton Heath defences,airfield defences,1
+813,RAF Swannington defences,airfield defences,1
+814,RAF Castletown defences,airfield defences,16
+815,RAF Chivenor defences,airfield defences,5
+816,RAF Sumburgh defences,airfield defences,2
+817,RAF Thurleigh defences,airfield defences,1
+818,RAF Seighford defences,airfield defences,1
+819,RAF Warmwell defences,airfield defences,1
+820,RAF Fairford defences,airfield defences,1
+821,RAF Worthy Down defences,airfield defences,27
+822,RAF Harwell defences.,airfield defences,5
+823,HMS Duke defences,other,3
+824,Kettering anti-tank island,anti-tank island,2
+825,RAF Watnall defences,airfield defences,2
+826,RAF Shobdon defences,airfield defences,9
+827,Bridge Sollers defended locality,other,3
+828,Leintwardine defended locality,other,2
+829,Orleton defended locality,other,1
+830,Brimfield defended locality,other,1
+831,Bredwardine defended locality,other,1
+832,Moccas defended locality,other,1
+833,RAF Madley defences,airfield defences,2
+834,Mordiford Bridge defended locality,other,2
+835,Leintwardine nodal point,nodal point,2
+836,Holme Lacy defended locality,other,1
+837,Leominster nodal point,nodal point,3
+838,Leominster centre of resistance,other,3
+839,Kington nodal point,nodal point,2
+840,Kington centre of resistance,other,2
+841,Hereford anti-tank island,anti-tank island,3
+842,Hereford nodal point,nodal point,2
+843,Portway centre of resistance,other,1
+844,Whitney on Wye centre of resistance,other,1
+845,Hoarwithy centre of resistance,other,1
+846,Pontrilas centre of resistance,other,5
+847,Pontrilas nodal point,nodal point,5
+848,Ross-on-Wye nodal point,nodal point,2
+849,Ross Bridge centre of resistance,other,2
+850,Kerne Bridge centre of resistance,other,4
+851,RAF Barton Bendish defences,airfield defences,3
+852,RNAS Burscough defences,other,1
+853,RAF Great Massingham defences,airfield defences,1
+854,Ledbury centre of resistance,other,2
+855,Ledbury nodal point,nodal point,2
+856,Wollaston defended locality,other,1
+857,Trimpley defended locality,other,3
+858,Chadwick defended locality,other,1
+859,Wychbold defended locality,other,1
+860,Areley Kings defended locality,other,1
+861,Holt Fleet defended locality,other,2
+862,Spetchley defended locality,other,2
+863,Norton (Worcester) defended locality,other,2
+864,Cowleigh defended locality,other,1
+865,Wyche defended locality,other,1
+866,British Camp (Malvern) defended locality,other,1
+867,Hollybush defended locality,other,1
+868,Norton (Evesham) defended locality,other,2
+869,Littleton defended locality,other,3
+870,Wood Norton defended locality,other,1
+871,Fladbury defended locality,other,6
+872,Honeybourne defended locality,other,3
+873,Broadway defended locality,other,1
+874,Great Hampton defended locality,other,1
+875,Pershore defended locality,other,30
+876,Beckford defended locality,other,1
+877,Saxons Lode defended locality,other,6
+878,Longdon defended locality,other,1
+879,Severn Stoke defended locality,other,7
+880,Whittington centre of resistance,other,2
+881,Iverley nodal point,nodal point,2
+882,Iverley centre of resistance,other,2
+883,Worcester Lane Crossroads (Pedmore) centre of resistance,other,2
+884,Pedmore nodal point,nodal point,2
+885,Wychbury centre of resistance,other,1
+886,Hagley Hill centre of resistance,other,1
+887,Hasbury centre of resistance,other,1
+888,Hunnington centre of resistance,other,1
+889,Romsley centre of resistance,other,1
+890,Bromsgrove centre of resistance,other,3
+891,Bromsgrove nodal point,nodal point,4
+892,Rock Hill centre of resistance,other,1
+893,Powick centre of resistance,other,11
+894,Knightsford Bridge centre of resistance,other,7
+895,Upton upon Severn centre of resistance,other,10
+896,Redditch anti-tank island,anti-tank island,9
+897,Droitwich anti-tank island,anti-tank island,6
+898,Evesham anti-tank island,anti-tank island,10
+899,Trefonen defended locality,other,1
+900,Malmesbury anti-tank island,anti-tank island,14
+901,RAF Filton defences,airfield defences,1
+902,Chippenham anti-tank island,anti-tank island,8
+903,RAF Long Newnton defences,airfield defences,7
+904,RAF Hethel defences,airfield defences,1
+906,RAF Middleton St. George defences,airfield defences,3
+907,RAF Netheravon defences,airfield defences,1
+908,London: Inner Keep,other,23
+909,Western Command Stop Line No 12,stop line,1
+910,Isle of Anglesey defences,other,17
+911,Denbighshire coast defences,coast defences,1
+912,RAF Charlton Horethorne defences,airfield defences,1
+913,County Down coast defences,coast defences,19
+914,County Londonderry coast defences,coast defences,10
+915,County Antrim coast defences,coast defences,3
+916,RAF Sydenham defences,airfield defences,5
+917,RAF Pitreavie Castle defences,airfield defences,3
+919,RAF Twatt defences,airfield defences,2
+920,Inverclyde coast defences,coast defences,1
+921,Stirling Coast defences,coast defences,1
+922,Falkirk coast defences,coast defences,1
+923,RAF Worth Matravers defences,airfield defences,3
+925,Durham City defences,other,4
+926,GHQ Line (Section York - Barnard Castle),stop line,2
+927,RAF Rougham defences,airfield defences,1
+929,Cardiff coast defences,coast defences,1
+930,RAF Lulsgate defences,airfield defences,1
+931,Conwy coast defences,coast defences,2
+932,GHQ Line (Peterborough - York),stop line,1
+933,RAF Fairoaks defences,airfield defences,1
+934,RAF Great Sampford,airfield defences,2
+935,Royal Ordnance Factory Willaston defences,other,3
+936,RAF Brize Norton defences,airfield defences,2
+937,Bath anti-tank island,anti-tank island,1
+938,Stradsett nodal point,nodal point,10
+939,RAF Canewdon defences,airfield defences,25
+940,Hartford End defended place,other,10
+941,Littleport nodal point,nodal point,26
+942,Wooler defended village,other,24
+943,Barrow Docks defences,other,24
+944,Greatham Creek defended locality,other,11
+945,Bucks Green defended village,other,12

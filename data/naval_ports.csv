@@ -1,0 +1,12 @@
+name,kind,note,lat,lon,source,qid
+Portsmouth Dockyard,Naval dockyard,Royal Dockyard since 1496; open throughout,50.8042,-1.1025,"Wikipedia, HMNB Portsmouth (article coordinates)",
+Plymouth (Devonport) Dockyard,Naval dockyard,Royal Dockyard since 1690; open throughout,50.385,-4.185,"Wikipedia, HMNB Devonport (article coordinates)",
+Chatham Dockyard,Naval dockyard,Royal Dockyard 1567 to 1984,51.38491,0.52552,"OS Open Names, Chatham (town point)",
+Sheerness Dockyard,Naval dockyard,Royal Dockyard 1665 to 1960,51.43991,0.76226,"OS Open Names, Sheerness (town point)",
+Pembroke Dockyard,Naval dockyard,"reopened in the 1930s, closed 1947",51.69365,-4.93984,"OS Open Names, Pembroke Dock (town point)",
+Portland Dockyard,Naval dockyard,"very active through two World Wars, closed 1959",50.55883,-2.44152,"OS Open Names, Fortuneswell (town point)",
+Rosyth Dockyard,Naval dockyard,reopened 1939,56.02056,-3.45333,"Wikipedia, Rosyth Dockyard (article coordinates)",
+Dover Dockyard,Naval dockyard,listed as a Naval Dockyard in both World Wars,51.12814,1.30843,"OS Open Names, Dover (town point)",
+Invergordon,Naval dockyard,naval oiling station in the Second World War,57.6884,-4.1692,"OS Open Names, Invergordon (town point)",
+"Scapa Flow Dockyard, Lyness",Naval dockyard,"established 1939, operational through the war",58.83344,-3.20696,"OS Open Names, Lyness (town point)",
+Rosneath naval base,Naval base,Wikidata naval base,56.0083,-4.7973,Wikidata,Q85797938
